@@ -1,0 +1,20 @@
+html
+{
+		background-color: lightblue;
+}
+
+table
+{
+	width:100%;
+}
+
+table th
+{
+	border:2px solid black;
+}
+
+tr:nth-child(1)
+{
+	background-color: grey;
+	color:black;
+}
