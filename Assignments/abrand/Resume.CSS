@@ -1,0 +1,28 @@
+html
+{
+	background-color: lightblue;
+}
+
+H2:hover
+{
+	box-shadow: 1px 8px 8px 2px green;
+}
+
+H3:hover
+{
+	box-shadow: 2px 8px 8px 3px red;
+}
+
+H4:hover
+{
+	box-shadow: 3px 8px 8px 4px orange;
+}
+
+H5:hover
+{
+	box-shadow: 4px 8px 8px 5px purple;
+}
+h2, h5, .center
+{
+	text-align: center
+} 
