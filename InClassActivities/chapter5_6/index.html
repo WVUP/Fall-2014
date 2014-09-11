@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>Chapter 5 and 6</title>
+	<link rel="stylesheet" href="site.css">
+</head>
+<body>
+	
+	<form>
+		
+
+		<fieldset>
+			<legend>Shipping Address</legend>
+			<ul>
+				<li>
+					<label class="align" for="Address1">Address 1</label>
+					<input id="Address1" type="text" name="Address1" placeholder="Enter Address">
+				</li>
+				<li>
+					<label class="align" for="Address2">Address 2</label>
+					<input id="Address2" type="text" name="Address2">
+				</li>
+				<li>
+					<label class="align" for="City">City</label>
+					<input id="City" type="text" name="City" value="Belpre">
+				</li>
+				<li>
+					<label class="align" for="State">State</label>
+					<input id="State" type="text" name="State" value="OH">
+				</li>
+			</ul>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Favorite Color</legend>
+
+			<p>Select one color</p>
+
+			<select name="select_color" id="select_color">
+				<option value="">Select One..</option>
+				<option value="Blue">Blue</option>
+				<option value="Green" selected>Green machine</option>
+				<option value="Red">Red</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Color...again</legend>
+
+			<ul>
+				<li>
+					<label for="color_1">Blue</label>
+					<input type="radio" name="color_option" id="color_1" value="blue">
+				</li>
+				<li>
+					<label for="color_2">Green</label>
+					<input type="radio" name="color_option" id="color_2" value="green">
+				</li>
+				<li>
+					<label for="color_3">Red</label>
+					<input type="radio" name="color_option" id="color_3" value="red">
+				</li>
+			</ul>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Multiple Colors</legend>
+
+
+			<ul>
+				<li>
+					<label class="align" for="mcolor1">Blue</label>
+					<input type="checkbox" id="mcolor1">
+				</li>
+				<li>
+					<label class="align" for="mcolor2">Green</label>
+					<input type="checkbox" id="mcolor2">
+				</li>
+				<li>
+					<label class="align" for="mcolor3">Red</label>
+					<input type="checkbox" id="mcolor3">
+				</li>
+			</ul>
+			
+
+		</fieldset>
+	
+		<fieldset>
+			<legend>Select Multiple</legend>
+
+			<select name="color_multiple" id="color_multiple" multiple>
+				<option value="Blue">Blue</option>
+				<option value="Green">Green</option>
+				<option value="Red">Red</option>
+			</select>
+		</fieldset>
+
+	</form>
+
+</body>
+</html>
