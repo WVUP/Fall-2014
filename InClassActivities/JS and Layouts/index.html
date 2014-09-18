@@ -1,0 +1,103 @@
+<html>
+<head>
+	<title>JS and Layout</title>
+	<link rel="stylesheet" href="site.css">
+</head>
+<body>
+	
+	<div>
+		<ul>
+			<li>Link 1</li>
+			<li>Link 2</li>
+			<li>Link 3</li>
+			<li>Link 4</li>
+			<li>Link 5</li>
+		</ul>
+	</div>
+
+	<div class="container">
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione mollitia quos repellat maiores doloribus laborum natus quo laboriosam, illum. Amet?</p>
+
+	
+
+		<table>
+			<thead>
+				<tr>
+					<th>Column 1</th>
+					<th>Column 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>value a</td>
+					<td>value b</td>
+				</tr>
+				<tr>
+					<td>value 1</td>
+					<td>value 2</td>
+				</tr>
+				<tr>
+					<td>value 3</td>
+					<td>value 4</td>
+				</tr>
+				<tr>
+					<td>test</td>
+					<td>again</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+
+		<div>
+			<div class="column-3">
+				<div class="column-header">column 1</div>
+				<a href="#" class="bot-right">Test</a>
+				<div style="padding:5px;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nostrum sint minima eum delectus nesciunt provident labore expedita, quam saepe.</p>
+				</div>
+			</div>
+			<div class="column-3">
+				<div class="column-header">column 2</div>
+				<a href="#" class="bot-right">Test</a>
+				<div style="padding:5px;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatibus unde officia ut alias saepe aperiam molestiae laborum eligendi placeat.</p>
+				</div>
+			</div>
+			<div class="column-3">
+				<div class="column-header">column 3</div>
+				<a href="#" class="bot-right">Test</a>
+				<div style="padding:5px;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sapiente quasi minus eveniet? Et, ratione! Fugit ipsam, consequatur quasi aliquam?</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div>
+			<div style="float:left;">left side here</div>
+
+			<div style="float:right">right side here</div>
+
+			<div style="float:left;">yet another left</div>
+		</div>
+
+
+		<div id="clickr" style="width:100px; height:50px; background-color:blue; clear:both">
+			CLICK ME
+		</div>
+
+	</div>
+
+	<script>
+	var btn = document.getElementById('clickr');
+	btn.addEventListener('click', function () {
+		
+		btn.innerHTML = 'You clicked me';
+		btn.style.color = 'white';
+	});
+	</script>
+
+</body>
+</html>

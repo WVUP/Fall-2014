@@ -1,0 +1,54 @@
+body, html
+{
+	margin:0;
+}
+
+table
+{
+	width:100%;
+}
+
+.bot-right
+{
+	position: absolute;
+	bottom:5px;
+	right: 5px;
+}
+.column-3
+{
+	width:32.5%;
+	display: inline-block;
+	height:250px;
+	background-color: white;
+	border:1px solid lightgrey;
+	cursor:pointer;
+	overflow-y:auto;
+	position:relative;
+}
+.column-3:hover
+{
+	border:1px solid orange;
+}
+
+.column-3:hover .column-header
+{
+	background-color: blue;
+	color:white;
+}
+.column-header
+{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background-color: lightblue;
+	text-align:center;
+}
+
+.container
+{
+	width: 960px;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	padding: 15px;
+	height: 100%;
+}
