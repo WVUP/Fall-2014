@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ 
+	<head> 
+				
+
+		<link  rel="stylesheet" type="text/css" href="Quiz_style_sheet.css">
+	</head>
+	<body>
+
+		<div class="center">
+				<h1>Foods you want to eat !!!</h1>
+	<form 
+ 			action="MAILTO:parulvjs2003@yahoo.com" method="post" enctype="text/plain">
+
+			<p>First Name:  <input name="firstname" type="text" size="25"/></p>
+
+			<p>Email address :<input Emailadress= "Emailaddress" type= "email" size="35"/></p>
+
+		
+
+		<ol>
+
+			<li>
+				Are you :
+					<select name >
+						<option>Human</option>
+						<option>Cyborg</option>
+						<option>Android</option> 
+					</select>
+			</li>
+			<li>
+
+				Which of these foods do you would like ?
+
+					<br /><input name="oiltype" type="checkbox" class="styled "value="oil" />Oil &nbsp;
+
+					<br /><input name="burmesetype" type="checkbox" value="burmese" />Burmese &nbsp;
+
+					<br /><input name="chinesetype" type="checkbox" value="chinese" />Chinese &nbsp;
+
+					<br /><input name="Bateriestype" type="checkbox" value="Batteries" />Batteries &nbsp;
+
+					<br /><input name="lebanesetype" type="checkbox" value="lebanese" />lebanese &nbsp
+			</li>
+
+<p> 
+	
+			<li>
+
+				Would you prefer Vegetarian foods ? 
+
+					<br /><input name="yestype" type="radio" value="yes" />Yes
+					<br /><input name="yestype" type="radio" value="yes" />No 
+			</li>
+
+<p>  
+			<li>
+				What other choices would you like to be included? <p> 
+				<textarea name="other" rows="2" cols="50"></textarea>
+			</li>
+</p>
+			<li>
+<p>				 Do you prefer: 
+
+<p>					<input name="eatintype" type="radio" value="Eat in" />Eat In  
+ 
+<p>					<input name="eatintype" type="radio" value="Eat in" />Carry Out
+			</li>
+			<li>
+<p>				Name your favorite food places: <textarea name="other" rows="1" cols= "50"></textarea></p>
+			</li>
+
+<p><input type="submit" value="Submit" /> 
+   <input type="reset" value="Reset" /> 
+</p>
+
+
+
+<p>               Thank You for completing our survey!!<p>
+
+</div>
+</body>
+
+</form>
+</html>
