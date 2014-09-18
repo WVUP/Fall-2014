@@ -1,0 +1,47 @@
+li
+{
+	list-style-type: none;
+}
+
+.align
+{
+	width:100px;
+	display: inline-block;
+	text-align: right;
+}
+
+{
+	border-image-outset:green;
+} 
+p .outset
+{
+	border-style: outset:green
+}
+
+style
+{
+	border-style:outset;
+}
+
+p.outset 
+{
+	border-style: outset;
+	border-width: 2px 8px 8px 3px;
+}
+
+fieldset
+{
+	border-color: blue;
+	border-style:outset;
+}
+
+p
+{
+	border-color: red;
+	border-width: 2px 8px 8px 3px;
+}
+
+p1, .center
+{
+	text-align: center;
+}
