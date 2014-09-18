@@ -1,0 +1,53 @@
+
+h1
+	{font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+		text-align: center;
+		border-style: outset;
+		border-color: black;
+	font-color: #800000;
+}
+	
+
+h2,h3,h4
+	{font-style: italic;}
+
+h3
+	{font-size: 16pt;}
+
+h4
+	{font-size: 14pt;}
+
+h5
+	{font-size: 12pt;}
+
+
+body
+	{background-color: #2F4F4F;
+		color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+	}
+
+
+a
+	{color: gray;
+	font-style: normal;}
+
+li
+	{font-size: 11pt
+	}
+
+.NicGif
+	{
+		width: 200px;
+		height: 100px;}
+
+.ExplodingGif
+	{
+		width: 200px;
+		height: 100px;
+		float: right;
+	}
+
+.Experience
+	{font-size: 20pt;}

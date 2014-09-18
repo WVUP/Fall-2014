@@ -1,0 +1,44 @@
+.NicGif
+	{width: 100px;
+	}
+
+h1
+	{text-align: center;
+		border-style:outset;
+		border-color:silver;
+	}
+
+#water
+	{position:absolute;
+		left:10px;
+		top:100px;
+	}
+
+#Question2
+	{position:absolute;
+		left:500px;}
+
+#Question3
+	{position:absolute;
+		left:1075px;}
+
+#Question4
+	{position:absolute;
+		bottom:100px;
+		left:100px;}
+
+#Question5
+	{position:absolute;
+			bottom:175px;
+			left:750px;}
+
+body
+	{background-color: #4D4DFF;
+		color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+		}
+
+.everything
+	{background-color: white
+
+	}
