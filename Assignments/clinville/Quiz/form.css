@@ -1,0 +1,12 @@
+html
+{
+	background-image: url('hogwarts2.jpg');
+	background-color: #0099FF;
+	background-attachment: fixed; 
+	margin-left: 5%;
+	margin-right:5%;
+}
+.text
+{
+	font-size: 20;
+}
