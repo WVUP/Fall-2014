@@ -1,0 +1,64 @@
+html
+{
+	background-color: lightgrey;
+}
+
+h1
+{
+	text-align:center;
+}
+
+h4
+{
+	text-align:center;	
+}
+
+p
+{
+	border-bottom: 1px solid black; 
+}
+
+a 
+{
+	color:black;
+}
+
+a:hover
+{
+	box-shadow: 2px 4px 4px 2px grey;
+}
+
+table
+{
+	margin-left: 5%;
+	margin-right: 55%;
+	width: 40%;
+	border: 1px;
+}
+
+.indent
+{
+	text-indent: 10px
+}
+
+.right
+{
+    float:right;
+}
+
+.left
+{
+    float:left;
+}
+tr:nth-child(even)
+{
+	background-color: grey;
+}
+table th 
+{
+	border:1px solid black;
+}
+table td 
+{
+	border:1px solid black;
+}

@@ -1,0 +1,136 @@
+<html>
+<head>
+	<title>Shane Hinzman Quiz</title>
+	<link rel="stylesheet" type="text/css" href="quizSheet.css">
+</head>
+<body>
+
+	<form>
+		<fieldset>
+			<legend>Basic Information</legend>
+			<ul>
+				<li><label class="align" for="firstName">First Name</label>
+					<input id="firstName" type="text" name="firstName" placeholder="Enter First Name">
+				</li>
+				<li><label class="align" for="lastName">Last Name</label>
+					<input id="lastName" type="text" name="lastName" placeholder="Enter Last Name">
+				</li>
+				<li><label class="align" for="Address">Address</label>
+					<input id="Address" type="text" name="Address" placeholder="Enter Address">
+				</li>
+				<li><label class="align" for="City">City</label>
+					<input id="City" type="text" name="City" placeholder="Enter City">
+				</li>
+				<li><label class="align" for="State">State</label>
+					<select name="State" id="State">
+						<option value=""selected="selected">Select One..</option>
+						<option value="OH">Ohio</option>
+						<option value="WV">West Virginia</option>
+					</select>
+				</li>
+				<br>
+				<br>
+				<li>
+					<legend>Select your title</legend>
+					<select name="color_multiple" id="color_multiple" multiple>
+						<option value="Mr.">Mr.</option>
+						<option value="Mrs.">Mrs.</option>
+						<option value="Miss">Miss</option>
+						<option value="Dr.">Dr.</option>
+						<option value="Professor">Professor</option>
+						<option value="Mr. Dr. professor">Mr. Dr. professor</option>
+					</select>
+				</li>
+			</ul>
+		</fieldset>
+
+		<fieldset>
+			<legend>Favorite Superhero</legend>
+			<p>Who is your favorite superhero?</p>
+			<select class="align" name="select_hero" id="select_hero">
+				<option value="">Select One..</option>
+				<option value="Captain America">Captain America</option>
+				<option value="Iron Man" selected="selected">Iron Man</option>
+				<option value="Thor">Thor</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Superhero Questions</legend>
+			<p>Some dude gets in your face and challenges you to a fight. What do you do?</p>
+			<ul>
+				<li>
+					<input type="checkbox" id="1.1" value="1.1">
+					<label for="1.1">Hide</label>
+				</li>
+				<li>
+					<input type="checkbox" id="1.2" value="1.2">
+					<label for="1.2">Put up your dukes</label>
+				</li>
+				<li>
+					<input type="checkbox" id="1.3" value="1.3">
+					<label for="1.3">Point in the air and say, "what's that?" and flee.</label>
+				</li>
+				<li>
+					<input type="checkbox" id="1.4" value="1.4">
+					<label for="1.4">Well he's wearing tightie whities so I give him a wedgie and walk away.</label>
+				</li>
+			</ul>
+
+			<p>In a word, you are:</p>
+			<ul>
+				<li>
+					<input type="radio" name="2" id="2.1">
+					<label for="2.1">Shy</label>
+				</li>
+				<li>
+					<input type="radio" name="2" id="2.2">
+					<label for="2.2">Tough</label>
+				</li>
+				<li>
+					<input type="radio" name="2" id="2.3">
+					<label for="2.3">Funny</label>
+				</li>
+				<li>
+					<input type="radio" name="2" id="2.4">
+					<label for="2.4">Restless</label>
+				</li>
+			</ul>
+
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Basic Questions</legend>
+			<ul>
+				<p>What is your favorite color?</p>
+				<p>(choose one or more)</p>
+				<li>
+					<input type="checkbox" id="3.1" value="Blue">
+					<label for="3.1">Blue</label>
+				</li>
+				<li>
+					<input type="checkbox" id="3.2" value="Green">
+					<label for="3.2">Green</label>
+				</li>
+				<li>
+					<input type="checkbox" id="3.3" value="Red">
+					<label for="3.3">Red</label>
+				</li>
+				<li>
+					<input type="checkbox" id="3.4" value="Orange">
+					<label for="3.4">Orange</label>
+				</li>
+				<li>
+					<input type="checkbox" id="3.5" value="Yellow">
+					<label for="3.5">Yellow</label>
+				</li>
+				<li>
+					<input type="checkbox" id="3.6" value="Pink">
+					<label for="3.6">Pink</label>
+				</li>
+			</ul>
+		</fieldset>
+	</form>
+</body>
+</html>
