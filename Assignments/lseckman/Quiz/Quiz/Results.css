@@ -1,0 +1,11 @@
+body{
+	background-image: url("Fluttershy.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+h1{
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LD STD", Georgia, serif;
+	font-style: oblique;
+}

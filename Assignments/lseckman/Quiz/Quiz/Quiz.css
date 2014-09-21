@@ -1,0 +1,18 @@
+body{
+	background-image: url("MLP.jpg");
+	background-size: cover;
+	color: #F3F781;
+}
+
+li
+{
+	list-style-type:none;
+}
+
+.align
+{
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+	back
+}
