@@ -57,6 +57,15 @@ body, html{
 	color: white;
 	font-family: Helvetica;
 	margin-top: 88px;
+	list-style-type: none;
+}
+
+#hleft{
+	float: left;
+}
+
+#hright{
+	float: right;
 }
 
 .left{
@@ -83,23 +92,22 @@ body, html{
 	margin-right: 9px;
 	margin-left: 9px;
 	margin-bottom: 20px;
-	border: 4px solid;
-	border-color: #c25331;
+	border: 4px solid #c25331;
 }
 
-#questions{
+#scroll{
 	background-color: rgba(39, 57, 66, 1);
+	min-width: 450px;
 	margin-left: 150px;
+	padding-top: 215px;
 	padding-left: 140px;
 	padding-bottom: 3000px;
-	color: linen;
+	color: white;
 	font-family: Helvetica;
-	padding-top: 70px;
 }
 
 .form_container{
 	background-color: #333;
-	color: ivory;
 	text-align: center;
 	height: relative;
 	width: 88%;
@@ -107,6 +115,7 @@ body, html{
 	padding-top: 10px;
 	border: 1px solid;
 	border-color: black;
+	z-index: 1;
 }
 
 #question_container{
@@ -117,28 +126,7 @@ body, html{
 	padding: 20px;
 	padding-top: 1px;
 	margin-top: 10px;
-	padding-left: 20%;
-	padding-right: 20%;
 	font-size: 18px;
-}
-
-#div1{
-	width: relative;
-	clear: both;
-}
-
-#div2{
-	width: relative;
-	clear: both;
-}
-
-#div3{
-	width: relative;
-	clear: both;
-}
-
-#form_footer{
-	text-align: center;
 }
 
 #submit_button{
@@ -150,12 +138,20 @@ body, html{
 	padding-left: 60px;
 	padding-right: 60px;
 	margin: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
-ul{
-	list-style-type: none;
-	padding:0;
-	margin:0;
+#radio{
+	background-color: rgba(39, 57, 66, 1);
+	color: ivory;
+	border: 4px solid #485963;
+	min-width: 150px;
+	padding: 12px;
+	padding-left: 18px;
+	margin-left: 24%;
+	margin-right: 24%;
+	text-align: left;
 }
 
 input{
@@ -173,5 +169,9 @@ a:hover{
 
 h2{
 	text-align: center;
+}
+
+ul{
+	list-style-type: none;
 }
 
