@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="site.css">
 	<script src="dom.js"></script>
 </head>
-<body>
+<body onLoad="init();">
 
 	<h3>Renders List</h3>
 
@@ -22,6 +22,10 @@
 			
 		</tbody>
 	</table>
+
+<br /><br />
+	<input type="text" id="myInput" placeholder="Add Contact" />
+	<button onClick="add()">Add Me</button>
 	
 </body>
 </html>
