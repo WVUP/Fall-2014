@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YOUR DOWNLOAD IS WAITING NOW</title>
+	<link rel="stylesheet" type="text/css" href="JavascriptStyle.css">
+</head>
+<script type="text/javascript">
+	function showMe(){
+		Hidden.style.display = "";
+		Hidden2.style.display = "";
+	}
+</script>
+<body onclick="showMe()">
+	<header>
+		<div id="head"><center><h1>LET'S PLAY "WHICH DOWNLOAD <span style="color:blue">LINK</span> IS THE RIGHT ONE!"</h1></center>
+		</div>
+	</header>
+
+	<div id="Hidden" style="display:none"><a href="JavaLied.html"><center><h3>This is the right one. Click here.</h3></center></a></div>
+	<div id="Hidden2" style="display:none"><a href="JavaRight.html">This might the right one. I forget.</a></div>
+
+<div id="box1" style="width:100px; height:50px; background-color:white"		>Download now</div>
+	<script>
+var button1 = document.getElementById('box1');
+button1.addEventListener('click', function(){
+	alert('Nope');
+
+	button1.innerHTML = 'You tried this one.';
+});
+</script>
+
+<div id="box2" class="bot-right" style="width:150px; height:100px; background-color:white; color: blue;">Download here</div>
+	<script>
+var button2 = document.getElementById('box2');
+button2.addEventListener('click', function(){
+	alert('Not this one either');
+
+	button2.innerHTML = 'Not this one.';
+});
+	</script>
+
+	<div id="box3" class="bot-left" style="width:250px; height:250px; background-color:white; color: blue;">Download me maybe</div>
+	<script>
+var button3 = document.getElementById('box3');
+button3.addEventListener('click', function(){
+	alert('Not this one.');
+
+	button3.innerHTML = 'Nope.';
+});
+	</script>
+
+	<div id="box4" class="top-right" style="width:100px; height:50px; background-color:white; color: blue;">Download me maybe</div>
+	<script>
+var button4 = document.getElementById('box4');
+button4.addEventListener('click', function(){
+	alert('You are bad at this.');
+
+	button4.innerHTML = 'Ugh.';
+});
+	</script>
+</body>
+</html>
