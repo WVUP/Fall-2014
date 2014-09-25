@@ -28,6 +28,8 @@ function areTheyInHere(x){
    document.getElementById(holdMyBeer[1]).src = "cardBack.png";
    document.getElementById(x).src = "cardBack.png";
    }
+   holdMyBeer[0] = 0;
+   holdMyBeer[1] = 0;
 }
 
 
