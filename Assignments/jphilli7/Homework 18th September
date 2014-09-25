@@ -1,0 +1,89 @@
+<!DOCTYPE DOCUMENT>
+<html>
+<head>
+	<title>Homework</title>
+	<link rel=“stylesheet” href= “site.css”>
+</head>
+<body>
+	<div>
+		<ul>
+			<li> Link 1</li>
+<li>Link 2</li>
+<li>Link 3</li>
+<li>Link 4</li>
+
+		</ul> 
+</div>
+	<div class=“container”
+		<p>The column of Star Wars……</p>
+		<table>
+			<thread>
+				<tr>
+					<th>Star Wars link 1 beware of the force</th>
+					<th>Star Wars link 2 what is your light sabors true colors</th>
+				</tr>
+			</thread>
+			<tbody>
+				<tr>
+					<td>value a</td>
+					<td>value b</td>
+</tr>
+				<tr>
+					<td>value c</td>
+					<td>value d</td>
+</tr>
+				<tr>
+					<td>value 1</td>
+					<td>value 2</td>
+</tr>
+				<tr>
+					<td>value 3</td>
+					<td>value 4</td>
+</tr>
+				<tr>
+					<td>test the force</td>
+					<td> new jedi retake </td>
+</tr>
+
+
+			</tbody>
+</table>
+<div>
+	<div class=“column-3”>
+		<div class=“column-header”>column 1 jedi school</div>
+		<a href=“#” class=“bot-right”>Test</a>
+		<div style=“padding:5px;”>
+			<p>There are many tasks young jedi to become a true jedi warrior….</p>
+</div>
+<div>
+		<div class=“column-3”>
+			<div class=“column-header”>Column 2 Becoming one with…..</div>
+			<a href=“#” class=“bot-right”>Test</a>
+			<div style=“padding:5px;”>
+				<p>By now you question your self but try not to taint your knowledge…</p>
+</div>
+<div>
+		<div class=“column-3”>
+			<div class=“column-header”> Column 3 A jeti</div>
+			<a href=“#” class=“bot-right”>Test</a>
+			<div style=“padding:5px;”>
+				<p>A fine jeti be sure to always be true and just…. </p>
+</div>
+<div>
+	<div style=“float:left;”>Jeti to the left</div>
+	<div style=“float:right”>Jeti to the right</div>
+	<div style=“float:left”>Chubaka to the right</div>
+</div>
+<div id=“clickr” style=“width:100px; height:50px; background-color:blue; clear:both”>
+	CHOOSE THE PATH OF A JEDI
+</div>
+</div>
+<script>
+ var btn = document.getElemtById<’clickr’);
+btn.addEventListener(‘click’, function () {
+	btn.innerHTML = ‘You clicked’;
+	btn.style.color = ‘white’;
+});
+</script>
+</body>
+</html>
