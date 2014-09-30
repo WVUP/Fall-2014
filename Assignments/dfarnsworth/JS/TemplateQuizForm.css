@@ -14,7 +14,7 @@ body, html{
 	position: fixed;
 }
 
-#name {
+#name{
 	background-color: black;
 	color: white;
 	float:left;
@@ -66,6 +66,22 @@ body, html{
 
 #hright{
 	float: right;
+}
+
+#sign_in{
+	float: left;
+	line-height: 38px;
+	font-size: 14px;
+	color: black;
+	margin-left: 7%;
+}
+
+#create{
+	float: right;
+	padding-top: 12px;
+	font-size: 14px;
+	color: black;
+	margin-right: 7%;
 }
 
 .left{
@@ -175,8 +191,11 @@ a:link{
 	color: black;
 }
 
+a:hover #email{
+	color: darkslateblue;
+}
+
 a:hover div{
-	font-weight: bolder;
 	background-color: #c25331;
 	border-color: black;
 }
