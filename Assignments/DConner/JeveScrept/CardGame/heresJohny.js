@@ -24,13 +24,20 @@ function getMahAxe(){
 
 function areTheyInHere(x){
    if(document.getElementById(x).getAttribute("src") != document.getElementById(holdMyBeer[1]).getAttribute("src")){
-   
-   document.getElementById(holdMyBeer[1]).src = "cardBack.png";
-   document.getElementById(x).src = "cardBack.png";
+      document.getElementById(holdMyBeer[1]).src = "cardBack.png";
+      document.getElementById(x).src = "cardBack.png";
+//      theyreNotHere(holdMyBeer[1]);
+//      theyreNotHere(x);
    }
    holdMyBeer[0] = 0;
    holdMyBeer[1] = 0;
 }
+
+//function theyreNotHere(x){
+//   window.setTimeout(function(){},2000);
+//}
+
+//function
 
 
 function breakThisDoor(x){
