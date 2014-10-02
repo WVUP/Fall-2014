@@ -28,6 +28,11 @@ body, html{
 	border-color: #c25331;
 }
 
+div:hover #name{
+	border-color: white;
+	color: #c25331;
+}
+
 #email{
 	background-color: rgb(231, 231, 212);
 	color: #c25331;
@@ -196,8 +201,8 @@ a:hover #email{
 }
 
 a:hover div{
-	background-color: #c25331;
-	border-color: black;
+	border-color: white;
+	color: #c25331;
 }
 
 a:visited div{
