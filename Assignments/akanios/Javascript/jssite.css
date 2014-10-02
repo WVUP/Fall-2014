@@ -1,0 +1,107 @@
+.column-3
+{
+	width:300px;
+	display: inline-block;
+	height:300px;
+	background-color: white;
+	border:1px solid lightgrey;
+	overflow-y:auto;
+	position:relative;
+}
+
+
+.container
+{
+	width: 960px;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	padding: 15px;
+	height: 150%;
+}
+
+.firstdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("thefirstdoctor.jpg"); 
+    }
+
+.seconddoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("2nddoctor.jpg"); 
+    }
+
+.thirddoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("3rddoctor.jpg"); 
+    }
+
+.fourthdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("4thdoctor.jpg"); 
+    }
+
+.fifthdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("5thdoctor.jpg"); 
+    }
+.sixthdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("6thdoctor.jpg"); 
+    }
+.seventhdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("7thdoctor.jpg"); 
+    }
+.eighthdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("8thdoctor.jpg"); 
+    }
+.ninthdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("9thdoctor.jpg"); 
+    }
+.wardoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("wardoctor.jpg"); 
+    }
+.tenthdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("10thdoctor.jpg"); 
+    }
+.eleventhdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("11thdoctor.jpg"); 
+    }
+.twelfthdoctor
+    {
+    width: 300px;
+    height: 300px;
+    background-image: url("12thdoctor.jpg"); 
+    }
+body
+	{
+		background-image: url("background2.jpg")
+	}
