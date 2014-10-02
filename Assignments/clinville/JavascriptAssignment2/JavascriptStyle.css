@@ -1,0 +1,26 @@
+html{
+	background-color:lightgrey;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.bot-right
+{
+	position:absolute;
+	bottom:5px;
+	right:5px;
+}
+
+.bot-left
+{
+	position:absolute;
+	bottom:5px;
+	left:20px;
+}
+
+.top-right
+{
+	position:absolute;
+	top:300px;
+	right:200px;
+}
