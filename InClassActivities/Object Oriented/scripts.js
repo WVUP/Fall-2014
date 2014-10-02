@@ -15,7 +15,21 @@ var contact = {
 	}
 };
 
+/**
+ * This function does this that and the other
+ * @param  {obj} obj is a contact
+ * @return {}     
+ */
 function customAlert(obj){
 	var _combined = obj.firstName + ' ' + obj.lastName;
 	alert(_combined);
+}
+
+
+function Contact (fName, lName) {
+	this.firstName = fName;
+	this.lastName = lName;
+
+	var combined = this.firstName + ' ' + this.lastName;
+	this.fullName = combined;
 }
