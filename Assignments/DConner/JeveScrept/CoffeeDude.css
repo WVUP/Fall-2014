@@ -1,1 +1,16 @@
 
+.spilledDaBeans{
+   background-color: #1F7A99;
+   text-align: center;
+   margin-top: 60px;
+   padding-top: 40px;
+}
+
+html{
+   background-color: black;
+   cursor:url(Leaf.png),auto;
+}
+
+img{
+   cursor:url(LeafGlow.png),auto;
+}
