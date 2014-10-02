@@ -1,19 +1,20 @@
 var fullName = '';
 
+function _update() {
+	var updateName = document.getElementById('_create').value;
+	fullName = updateName;
+	insert();
+
 function insert() {
-	var _createName = document.getElementById("insert_profile_name");
-	var profileName = '';
-	profileName += '<br />' + fullName;
-	_createName.innerHTML = profileName;
+	var createName = document.getElementById("insert_profile_name");
+	createName.innerHTML = fullName;
 };
 
-function _update() {
-	var updateName = document.getElementById('_create');
-	fullName.push(updateName);
-	insert();
 };
 
 function _delete() {
-	var deleteName = document.getElementById('_create');
-	fullName.push('');
+	var deleteName = document.getElementById('insert_profile_name');
+	fullName = 'Good riddance...';
+	deleteName.innerHTML = fullName;
+
 }
