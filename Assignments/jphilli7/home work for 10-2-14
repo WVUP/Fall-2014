@@ -1,0 +1,98 @@
+<!DOCTYPE DOCUMENT>
+<html>
+<head>
+	<title>Homework part 2</title>
+	<link rel=“stylesheet” href= “site.css”>
+</head>
+<body>
+	<div style=“width:100px; height:50px; background-color:blue; clear:both”>
+		<p> Univeral links to the Galaxy</p>
+		<ul>
+			<li> Link 1 the mind</li>
+<li>Link 2 space</li>
+<li>Link 3 jedi hall</li>
+<li>Link 4 Cafeteria</li>
+
+		</ul> 
+</div>
+<div>
+	<div class=“container” style=“width:100px; height:50px; background-color:blue; clear:both”> To be a jedi is not easy, but takes knowledge and good will. </div>
+		<p>The column of Star Wars</p>
+		<table>
+			<thread>
+				<tr>
+					<th>Star Wars link 1 beware of the force</th>
+					<th>Star Wars link 2 what is your light sabors true colors</th>
+				</tr>
+			</thread>
+			<tbody>
+		</table>
+		</div>
+<table>
+				<tr>
+					<td>value a</td>
+					<td>value b</td>
+</tr>
+				<tr>
+					<td>value c</td>
+					<td>value d</td>
+</tr>
+				<tr>
+					<td>value 1</td>
+					<td>value 2</td>
+</tr>
+				<tr>
+					<td>value 3</td>
+					<td>value 4</td>
+</tr>
+				<tr>
+					<td>test the force</td>
+					<td> new jedi retake </td>
+</tr>
+
+
+			</tbody>
+</table>
+<div>
+	<div class=“column-3”>
+		<div class=“column-header”>column 1 jedi school</div>
+		<a href=“#” class=“bot-right”>Test</a>
+		<div style=“padding:5px;”>
+			<p>There are many tasks young jedi to become a true jedi warriors</p>
+</div>
+<div>
+		<div class=“column-3”>
+			<div class=“column-header”>Column 2 Becoming one with the force</div>
+			<a href=“#” class=“bot-right”>Test</a>
+			<div style=“padding:5px;”>
+				<p>By now you question your self but try not to taint your knowledge</p>
+</div>
+<div>
+		<div class=“column-3”>
+			<div class=“column-header”> Column 3 A jeti</div>
+			<a href=“#” class=“bot-right”>Test</a>
+			<div style=“padding:5px;”>
+				<p>A fine jeti be sure to always be true and just </p>
+</div>
+<div>
+	<div style=“float:left;”>Jeti to the left</div>
+	<div style=“float:right”>Jeti to the right</div>
+	<div style=“float:left”>Chubaka to the right</div>
+</div>
+<div id="clickr" style=“width:100px; height:50px; background-color:blue; clear:both”></div>
+	CHOOSE THE PATH OF A JEDI
+</div>
+</div>
+
+<fieldset>
+<legend> Are you ready to be a jedi?</legend>
+<select name=“select_one” id=“select_one”>
+<option value=“Yes I have trained”> Yes I have trained </option>
+<option value=“Maybe”> Maybe </option>
+<option value=“No”> No </option>
+</select>
+</fieldset>
+
+</script>
+</body>
+</html>
