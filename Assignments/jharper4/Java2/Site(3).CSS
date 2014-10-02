@@ -1,0 +1,109 @@
+h2, h3, .center
+{
+	text-align: center;
+}
+
+body, html
+{
+	margin: 0;
+}
+
+
+.column-3
+{
+	width: 32.5%;
+	display: inline-block;
+	height: 250px;
+	background-color: white;
+	border:1px solid lightgrey;
+	cursor:pointer;
+	overflow-y:auto;
+	position:relative;
+}
+
+.bot-right
+{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+.column-3:hover
+{
+	border:1px solid orange;
+}
+
+.column-3:hover .column-header
+{
+	background-color: blue;
+	color:white;
+}
+
+.column-header
+{
+	width: 100%;
+	height: 250px;
+	background-color: white;
+	border:1px solid lightgrey;
+	text-align: center;
+}
+
+.column-3:hover
+{
+	border:1px solid orange;
+}
+
+
+
+.container
+{
+	width: 968px;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	padding: 15px;
+	height: 1000px;
+	border-color: blue;
+}
+
+table
+{
+	width: 100%;
+}
+
+body {
+    background-image: url('http://ts1.mm.bing.net/th?&id=HN.608001261556861066&w=300&h=300&c=0&pid=1.9&rs=0&p=0');
+    background-color: #cccccc;
+}
+
+
+h2, h3, .color
+{
+	color: navy;
+}
+
+h2
+{
+	font-size: 300%;
+}
+
+h3
+{
+	font-size: 250%;
+}
+
+.container2
+{
+	width: 250px;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	padding: 10px;
+	height: 500px;
+	border-color: blue;
+}
+
+img
+{
+	
+	height: 690px;
+	width: 968px;
+}

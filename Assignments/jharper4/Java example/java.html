@@ -1,0 +1,53 @@
+<html>
+<head>
+	<link type="java.css"; rel="stylesheet"; href="java.css"/>
+	<title></title>
+</head>
+<body>
+	<div id="clicker" style=" width: 500px; height: 500px; background-color:blue; font-size:50px; text-align:center;">
+	</div>
+	<div class="block"; id="blue" style="width:50px; height:50px; background-color:blue;">
+	</div>
+		<div class="block"; id="red" style="width:50px; height:50px; background-color:red;">
+	</div>
+		<div class="block"; id="yellow" style="width:50px; height:50px; background-color:yellow;">
+	</div>
+		<div class="block"; id="green" style="width:50px; height:50px; background-color:green;">
+	</div>
+<script>
+var btn = document.getElementById('blue');
+btn.addEventListener('click', function () {
+		
+		btn.style.backgroundColor = 'blue';
+	});
+	</script>
+<script>
+var btn = document.getElementById('blue')
+btn.addEventListener('click',function(){
+	btn = document.getElementById('clicker');
+	btn.style.backgroundColor ='blue';
+});
+</script>
+<script>
+var btn = document.getElementById('red')
+btn.addEventListener('click',function(){
+	btn = document.getElementById('clicker');
+	btn.style.backgroundColor ='red';
+});
+</script>
+<script>
+var btn = document.getElementById('yellow')
+btn.addEventListener('click',function(){
+	btn = document.getElementById('clicker');
+	btn.style.backgroundColor ='yellow';
+});
+</script>
+<script>
+var btn = document.getElementById('green')
+btn.addEventListener('click',function(){
+	btn = document.getElementById('clicker');
+	btn.style.backgroundColor ='green';
+});
+</script>
+</body>
+</html>

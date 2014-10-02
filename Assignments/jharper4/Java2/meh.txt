@@ -1,0 +1,3 @@
+still a work in progress, I'm unsure on how to get my java2.js to function the way I'd like,
+ but one thing is for sure. I'm probably learning something. I'll probably have it done by class, if not I'll ask you 
+what you think.
