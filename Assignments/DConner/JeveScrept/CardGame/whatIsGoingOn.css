@@ -18,3 +18,12 @@ img{
    margin-right: 10%;
    margin-top:50px;
 }
+
+html{
+   background-color: black;
+   cursor:url(Leaf.png),auto;
+}
+
+img{
+   cursor:url(LeafGlow.png),auto;
+}
