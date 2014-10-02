@@ -1,0 +1,25 @@
+html
+{
+	background-color: green;
+}
+select
+{
+	background-color: black;
+	color: lime;
+}
+input
+{
+	background-color: black;
+	color: lime;
+}
+li
+{
+	list-style-type:none;
+}
+
+.align 
+{
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+}
