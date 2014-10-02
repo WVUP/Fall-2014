@@ -8,9 +8,9 @@
 
 html{
    background-color: black;
-   cursor:url(Leaf.png),auto;
+   cursor:url(CardGame/Leaf.png),auto;
 }
 
 img{
-   cursor:url(LeafGlow.png),auto;
+   cursor:url(CardGame/LeafGlow.png),auto;
 }
