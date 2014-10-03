@@ -28,7 +28,7 @@ body, html{
 	border-color: #c25331;
 }
 
-div:hover #name{
+div#name:hover{
 	border-color: white;
 	color: #c25331;
 }
@@ -73,20 +73,27 @@ div:hover #name{
 	float: right;
 }
 
-#sign_in{
+#log_in{
 	float: left;
 	line-height: 38px;
 	font-size: 14px;
 	color: black;
 	margin-left: 7%;
 }
+#log_in:hover{
+	color: white;
+}
 
-#create{
+#sign_up{
 	float: right;
 	padding-top: 12px;
 	font-size: 14px;
 	color: black;
 	margin-right: 7%;
+}
+
+#sign_up:hover{
+	color: white;
 }
 
 .left{
