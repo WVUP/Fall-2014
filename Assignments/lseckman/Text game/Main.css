@@ -1,0 +1,16 @@
+body{
+	background-image: url("Creepy_House.png");
+	background-size: cover;
+	color: #F3F781;
+	margin: 0 auto;
+}
+
+.sup{
+	text-align: center;
+}
+
+.button {
+    position: absolute:
+    top: 50%;
+ 
+}
