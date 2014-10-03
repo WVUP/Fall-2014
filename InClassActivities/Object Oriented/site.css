@@ -1,0 +1,36 @@
+ul li
+{
+	display: inline-block;
+	position:relative;
+}
+
+.menu ul
+{
+	display: none;
+}
+
+.menu li
+{
+	position:relative;
+	background-color: lightgrey;
+}
+
+.menu li:hover
+{
+	background-color: yellow;
+}
+
+.menu li ul
+{
+	width:200px;
+}
+
+.menu li:hover ul
+{
+	display: block;
+}
+
+.submenu
+{
+	position: absolute;
+}
