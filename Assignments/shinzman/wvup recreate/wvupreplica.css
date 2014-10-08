@@ -1,0 +1,163 @@
+html
+{
+	background: #9CBCDA;
+}
+body
+{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+table
+{
+	width:100%;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4651c9), color-stop(90%,#111683));
+	height: 50px;
+	color: #EECE29;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+th:hover
+{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#111683), color-stop(90%,#4651c9));
+	color: white;
+}
+button
+{
+	width:249px;
+	height:66px;
+}
+.button1
+{
+	margin-left: 5%;
+	background-color:#0168B9;
+	width: 40%;
+	color: white;
+}
+.button2
+{
+	margin-right: 5%;
+	background-color: #B36940;
+	width: 40%;
+	color: white;
+}
+.firstTh
+{
+	background-color: #EECE29;
+	color: #111683;
+}
+.mainStyle
+{
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+}
+.bottomBorder
+{
+	margin-left: 2%;
+	margin-right: 2%;
+	border-bottom: 1px solid black;
+}
+.otherBottomBorder
+{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.div1
+{
+	float: left;
+	width: 20%;
+	height: 1785px;
+	background-color: #EECE29;
+}
+.div2
+{
+	float: right;
+	width: 80%;
+	height: 350px;
+	background-image: url(capture.png);
+}
+.div3
+{
+	float: right;
+	width: 80%;
+	height: 1190px;
+	background-color: white;
+	border-bottom: 1px solid  #EECE29;
+}
+.div4
+{
+	float: left;
+	width: 65%;
+	height: 1190px;
+}
+.div5
+{
+	float: right;
+	width: 35%;
+}
+.div6
+{
+	float: right;
+	width: 80%;
+	height: 245px;
+	background-color: white;
+	border-top: 1px solid  #EECE29;
+}
+.div7
+{
+	margin-right: 10%;
+	width: 80%;
+	margin-left: 10%;
+	background-color: #5392ce;
+	height: 690px;
+}
+.divContact
+{
+	background-image: url(contact.png);
+	height: 55px;
+	width: 25%;
+	margin-left: 37%; 
+	margin-right: 37
+	%;
+}
+.aRight
+{
+	float: right;
+}
+.aLeft
+{
+	float: left;
+}
+.divFirst
+{
+	background-image: url(first.gif);
+	width: 144px;
+	height: 144px;
+	float: left;
+}
+.divSecond
+{
+	background-image: url(second.gif);
+	width: 237px;
+	height: 135px;
+	float: left;
+}
+.divThird
+{
+	background-image: url(third.gif);
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.center
+{
+	text-align: center;
+}
+.bottomText
+{
+	text-align: center;
+	font-size: x-small;
+	font: inherit;
+}
