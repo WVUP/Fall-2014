@@ -1,0 +1,39 @@
+.block
+{
+	display: inline-block;
+}
+.background
+{
+	background-color: lightblue;
+	height:2000px;
+	width:100%;
+}
+.button
+{
+	width:relative;
+	text-align: center;
+	color:rgb(241, 172, 49);
+	display: inline-block;
+	padding-top:15px;
+	padding-left: 6px;
+	padding-right: 6px;	
+	height:35px;
+}
+.button:hover
+{
+	color:black;
+	background-color:azure;
+}
+.body
+{
+margin:0 auto;
+}
+.insideright
+{
+	float:right;
+	position:relative;
+}
+body
+{
+	background-color:lightblue;
+}
