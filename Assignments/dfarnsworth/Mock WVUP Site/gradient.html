@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-color:midnightblue">
+
+	<div>
+
+		<div style="position: fixed; color: gold; margin: 90px; margin-top: 400px">
+
+			<strong style="font-size: 65px">WVUP</strong>
+
+		</div>		
+
+		<canvas id="myCanvas" width="380" height="1500" style="border:5px solid gold; margin-bottom: 80px">
+		</canvas>
+
+	</div>
+
+	<script>
+		var c=document.getElementById("myCanvas");
+		var ctx=c.getContext("2d");
+
+		var grd=ctx.createLinearGradient(0,0,0,2000);
+		grd.addColorStop(0,"orange");
+		grd.addColorStop(1,"lightgoldenrodyellow");
+
+		ctx.fillStyle=grd;
+		ctx.fillRect(0,0,380,1500);
+
+	</script>
+
+</body>
+
+</html>
