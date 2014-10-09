@@ -1,0 +1,99 @@
+/* a tags to not look like a tags */
+.tip a{
+   text-decoration: none;
+}
+.tip a:link{
+   color: #FDFDFD;
+}
+.tip a:visited{
+   color: #FDFDFD;
+}
+.tip a:hover{
+   color: #FDFDFD;
+}
+.tip a:active{
+   color: #FDFDFD;
+}
+
+/* sign in button */
+.bedbug{
+   position: relative;
+   left: 90%;
+   top: -30px;
+   width: 65px;
+}
+
+/* the Header Bar */
+.hat{
+   position: relative;
+   background: black;
+   width: 99%;
+   height: 64px;
+   padding: 14px;
+   margin-top:-14px;
+   margin-left: -12px;
+}
+/* holds the items within the header bar */
+.moustache{
+   text-align: center;
+}
+
+.top{
+   list-style-type:none;
+}
+
+
+/* THIS SECTION ATTEMPTS TO TACKLE THE DROP-DOWN MENU */
+ul li{
+   display: inline-block;
+   margin-right: 8px;
+   margin-left: 8px;
+}
+.tip{
+   list-style-type:none;
+   color: #FDFDFD
+}
+
+ul li
+{
+	display: inline-block;
+	position:relative;
+}
+
+.tip ul
+{
+	display: none;
+}
+
+.tip li
+{
+	position:relative;
+	background-color: lightgrey;
+}
+
+.tip li:hover
+{
+	background-color: yellow;
+}
+
+.tip li ul
+{
+	width:200px;
+}
+
+.tip li:hover ul
+{
+	display: block;
+}
+
+.sub
+{
+	position: absolute;
+}
+
+
+
+
+/* Moving Away from the Above */
+
+/* delete this before submitting */
