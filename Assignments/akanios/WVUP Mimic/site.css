@@ -1,0 +1,154 @@
+ul li
+{
+	display: inline-block;
+	position:relative;top:15px;
+	font-family: sans-serif;
+	text-align: center;
+	color:#E3B11F;
+	font-weight: bold;
+	font-size: 10pt;
+
+}
+
+li:hover
+{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#111683), color-stop(90%,#4651c9));;
+}
+
+.topBorder ul
+{
+	display: none;
+}
+
+.topBorder li
+{
+	position:relative;
+	text-align: center;
+}
+
+.topBorder li ul
+{
+	width:200px;
+	text-align: center;
+}
+
+.submenu
+{
+	position: absolute;
+}
+
+.topdiv
+{
+	background-color: #111683;
+	width:85%;
+	height: 50px;
+	padding: 0;
+	text-align: center;
+	margin: 0 auto;
+	position:relative;left:0px;
+}
+
+.home
+{
+	float: left;
+}
+
+.divLeft
+{
+	position:relative;left:100px;top:-15px;
+	width: 220px;
+	height: 1500px;
+	background-color: #E3B11F;
+}
+
+.divCenter
+{
+	position:absolute;left:330px;top:60px;
+	height: 60%;
+	width: 67%;
+	background-image: url(campuspic.jpg);
+	background-size: 100%;
+	margin: 0;
+	border-radius: 20px;
+}
+
+.buttons
+{
+	position:absolute;left:30px;top:10px;
+}
+
+.leftText
+{
+	color: #111683;
+	text-align: right;
+	line-height: 23px;
+	font-size: 12pt;
+	position:relative;
+	top:330px;
+}
+
+html
+{
+	background-color: #9CBCDA;
+}
+
+.divRight
+{
+	position:relative;left:320px;top:-1154px;
+	width: 68%;
+	height: 1135px;
+	background-color: white;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #E3B11F;
+}
+
+.bottomPics
+{
+	position:absolute;left:30px;top:850px;
+}
+
+.bottomStuff
+{
+	position:relative;left:320px;top:-1155px;
+	width: 68%;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+	border-color:#E3B11F;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.links
+{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.bottomText
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 10pt;
+	color: grey;
+}
+
+.socialMedia
+{
+	position:absolute;left:320px;top:105px;
+}
+
+.logo
+{
+	position:relative;left:670px;
+}
+
+.centerText
+{
+	text-align: left:5px;
+	position:relative;top:-4000px;
+	font-family:sans-serif;
+	text-decoration: none;
+}
