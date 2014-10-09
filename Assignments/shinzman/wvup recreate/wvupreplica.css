@@ -28,6 +28,19 @@ button
 	width:249px;
 	height:66px;
 }
+ul
+{
+	padding-right: 5%;
+	padding-left: 0%;
+	color: #111683;
+	text-align: right;
+	list-style-type: none;
+}
+li:hover
+{
+	background: #111683;
+	color: white;
+}
 .button1
 {
 	margin-left: 5%;
@@ -113,14 +126,55 @@ button
 	background-color: #5392ce;
 	height: 690px;
 }
+.div8
+{
+	border-left: 3px solid #111683; 
+	margin-right: 5%;
+	margin-left: 10%;
+}
 .divContact
 {
-	background-image: url(contact.png);
 	height: 55px;
-	width: 25%;
-	margin-left: 37%; 
-	margin-right: 37
-	%;
+	width: 29%;
+	margin-left: 36.5%; 
+	margin-right: 36.5%;
+}
+.divContact1
+{
+	background-image: url(contact1.png);
+	height: 55px;
+	width: 55px;
+	float: left;
+}
+.divContact2
+{
+	background-image: url(contact2.png);
+	height: 55px;
+	width: 55px;
+	float: left;
+}
+.divContact3
+{
+	background-image: url(contact3.png);
+	height: 55px;
+	width: 55px;
+	float: left;
+}
+.divContact4
+{
+	background-image: url(contact4.png);
+	height: 55px;
+	width: 55px;
+	float: left;
+}
+.divCalendar
+{
+	background-image: url(calender.png);
+	width: 90%;
+	height: 180px;
+	margin-right: 5%;
+	margin-left: 5%;
+
 }
 .aRight
 {
@@ -151,13 +205,21 @@ button
 	height: 150px;
 	float: left;
 }
+.divFourth
+{
+	background-image: url(handy.gif);
+	width:40px;
+	height: 40px;
+	margin-left: 10%;
+}
 .center
 {
 	text-align: center;
 }
-.bottomText
+.sc1
 {
-	text-align: center;
-	font-size: x-small;
-	font: inherit;
+	background-color: #111683;
+	width:100%;
+	height: 30px;
+	color: #E3B11F;
 }
