@@ -1,6 +1,6 @@
 blockquote p
 {
-	font-family: Georgia, "Times New Roman", Times, Serif;
+	font-family: Georgia, "Times New Roman";
 	font-style: italic;
 }
 
@@ -71,7 +71,7 @@ body
 	-webkit-border-bottom-left-radius: 20px;
 	-moz-border-radius-bottomright: 20px;
 	-moz-border-radius-bottomleft: 20px;
-/* SAFARI ISSUE WITH GOOGLE MAPS  	z-index: 200; */
+
 }
 
 #cvc_left_sidebar #widgets {
@@ -407,7 +407,13 @@ body.page-parent-about #sidebar_icon {
 	background: transparent;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-default.png') !important;
 }
-h2, li
+
+h2, .horizontal
 {
-	list-style-type: horizontal;
+	list-style-position: horizontal;
+}
+
+div
+{
+	border: 1px 8px 8px 2px;
 }
