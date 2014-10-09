@@ -18,6 +18,10 @@ table
 	border: 0;
 	padding: 0;
 }
+h3
+{
+	color: #111683;
+}
 th:hover
 {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#111683), color-stop(90%,#4651c9));
@@ -40,6 +44,10 @@ li:hover
 {
 	background: #111683;
 	color: white;
+}
+.blueText
+{
+	color: #111683;
 }
 .button1
 {
