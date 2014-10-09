@@ -1,0 +1,413 @@
+blockquote p
+{
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	font-style: italic;
+}
+
+p, hr, dl, pre, form, table, address, blockquote {
+	margin: 1.6em 0 0 0;
+}
+
+
+body
+{
+	background: lightblue;
+}
+
+.menu li li:hover 
+{
+	background: transparent !important;
+	filter: none;
+} 
+
+#container {
+	margin-top:45px;
+	padding:0;
+	max-width:1100px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-box-shadow:0px 6px 10px 2px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow:0px 6px 10px 2px rgba(0, 0, 0, 0.35);
+	box-shadow:0px 6px 10px 2px rgba(0, 0, 0, 0.35);
+		background: #e3b11f;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UzYjExZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMGNlOWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #e3b11f 0%, #e0ce9d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e3b11f), color-stop(100%,#e0ce9d));
+	background: -webkit-linear-gradient(top,  #e3b11f 0%,#e0ce9d 100%);
+	background: -o-linear-gradient(top,  #e3b11f 0%,#e0ce9d 100%);
+	background: -ms-linear-gradient(top,  #e3b11f 0%,#e0ce9d 100%);
+	background: linear-gradient(to bottom,  #e3b11f 0%,#e0ce9d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3b11f', endColorstr='#e0ce9d',GradientType=0 );
+;
+}
+.ie6 #container {
+	width:1100px;
+	margin-top:45px !important;
+}
+
+#cvc_left_sidebar {
+	display: block;
+	float: left;
+	width: 20%;
+	margin: 0;
+	min-height: 800px;
+	overflow: hidden;
+}
+
+.ie6 #cvc_left_sidebar {
+	height: 1200px;
+}
+
+#cvc_right_content {
+	width: 80%;
+	min-height: 800px;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	background: white;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 20px;
+/* SAFARI ISSUE WITH GOOGLE MAPS  	z-index: 200; */
+}
+
+#cvc_left_sidebar #widgets {
+	width: 220px;
+	float: none;
+	height: 100%;
+	display: block;
+	position: relative;
+	background: transparent;
+	margin:0;
+	margin-top: 0px;
+	padding-top: 250px;
+	z-index: 0;
+}
+
+.page-template-landing-page-wvup-php #cvc_left_sidebar #widgets {
+	padding-top: 250px;
+}
+
+.page-template-landing-page-wvup-php #cvc_left_sidebar #widgets {
+}
+
+.widget-wrapper {
+	margin-top: 20px;
+}
+
+.widget-wrapper {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	background-color: #e8f0f9;
+	border: 1px solid #d7e2ed;
+	border-radius: 6px;
+	font-size: 13px;
+}
+
+#cvc_left_sidebar .widget-wrapper {
+	/* width: 200px; */
+	float: none;
+	display: block;
+	position: relative;
+	background: transparent;
+	border:none;
+	padding:0;
+	/* padding-left: 5px; */
+	padding-right: auto;
+}
+
+#wrapper {
+	border:none;
+/* SAFARI ISSUE WITH GOOGLE MAPS  	z-index:200; */
+	background: transparent !important;
+}
+
+#header {
+	position: relative;
+/* SAFARI ISSUE WITH GOOGLE MAPS  	z-index:100; */
+	height: 250px;
+	-webkit-box-shadow: 0px 10px 20px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 10px 20px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 10px 20px rgba(50, 50, 50, 0.75);
+	background-color: #111683;
+}
+
+.page-template-landing-page-wvup-php #header {
+	height: 350px;
+}
+
+.breadcrumb-list {
+	padding:0;
+}
+
+#wrapper #content{
+	width:70%;
+}
+
+.page-template-landing-page-wvup-php #wrapper #content {
+	width: 65%;
+}
+
+.printfriendly.pf-alignright {
+	margin: 0;
+	margin-top:-25px !important; 
+}
+
+#content-full .printfriendly.pf-alignright {
+	margin: 0;
+/*	margin-top:-80px !important; */
+}
+
+.sociable {
+	margin-top:25px;
+}
+
+
+body.home .post-title {
+	display:none;
+}
+
+
+#headerimage {
+	display:none; 
+	visibility:visible;
+	position: absolute;
+	top:0;
+
+	width:100%;
+	height:250px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+}
+
+.page-template-landing-page-wvup-php #headerimage {
+		height:350px;
+}
+
+
+#headerimage_fallback {
+	display:none;
+	position: absolute;
+	top:0;
+	width:100%;
+	height:250px;
+	background-position:  0 0;
+	background-repeat: no-repeat;
+	background-image: url(images/defaultbg-1.jpg);
+	overflow: hidden;
+}
+
+#headerimage_fallback.bg2 {
+	background-image: url(images/defaultbg-2.jpg);
+}
+
+#headerimage_fallback.bg3 {
+	background-image: url(images/defaultbg-3.jpg);
+}
+
+#headerimage_fallback.bg4 {
+	background-image: url(images/defaultbg-4.jpg);
+}
+
+#headerimage_fallback.bg5 {
+	background-image: url(images/defaultbg-5.jpg);
+}
+
+.page-template-landing-page-wvup-php #headerimage_fallback {
+	height:350px;
+	background-image: url(images/defaultbg-landing-1.jpg);
+}
+
+.page-template-landing-page-wvup-php #headerimage_fallback.bg2 {
+	background-image: url(images/defaultbg-landing-2.jpg);
+}
+
+.page-template-landing-page-wvup-php #headerimage_fallback.bg3 {
+	background-image: url(images/defaultbg-landing-3.jpg);
+}
+
+.page-template-landing-page-wvup-php #headerimage_fallback.bg4 {
+	background-image: url(images/defaultbg-landing-4.jpg);
+}
+
+.page-template-landing-page-wvup-php #headerimage_fallback.bg5 {
+	background-image: url(images/defaultbg-landing-5.jpg);
+}
+
+
+.no-js #headerimage_fallback,
+.no-js  {
+	visibility: visible;
+	display:block;
+}
+
+#headerimage img,
+#headerimage_fallback img {
+	margin:0;
+	padding:0;
+	width:880px;
+}
+
+
+
+
+
+#wvup_logo {
+	background: url(images/wvuplogo.png) top right no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.ie6 #wvup_logo {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/wvuplogo.png');
+
+}
+
+#sidebar_icon {
+	display:none;
+	width:220px;
+	min-height: 800px;
+	overflow: visible;
+	position: absolute;
+	top:45px;
+}
+
+.ie6 #sidebar_icon {
+	height:800px;
+	background:transparent;
+}
+
+#sidebar_widgets {
+	width:220px;
+	min-height: 800px;
+	overflow: visible;
+	position: absolute;
+	top:45px;
+}
+
+#wv_logo {
+	display:none;
+	position: fixed;
+	background: url(images/bell_graphic.gif) 0 0 no-repeat;
+	width:220px;
+	height: 250px;
+	bottom: 10%;
+}
+.error404 #wv_logo {
+	position:relative !important;
+}
+
+
+.ie6 #wv_logo {
+	display:none !important;
+}
+
+.no-js #sidebar_icon {
+
+}
+
+
+#sidebar_icon {
+	background: url(images/icon-default.png) 0 0 no-repeat;
+}
+
+.ie6 #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-default.png');
+}
+
+
+
+body.page-parent-about #sidebar_icon {
+	background: url(images/icon-about.png) 0 0 no-repeat;
+}
+
+.ie6 body.page-parent-about #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-about.png');
+}
+
+.page-parent-academics #sidebar_icon {
+	background: url(images/icon-academics.png) 0 0 no-repeat;
+}
+
+.ie6 .page-parent-academics #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-academics.png');
+}
+
+.page-parent-current-students #sidebar_icon {
+	background: url(images/icon-current-students.png) 0 0 no-repeat;
+}
+
+.ie6 .page-parent-current-students #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-current-students.png');
+}
+
+.page-parent-faculty-staff #sidebar_icon {
+	background: url(images/icon-faculty-staff.png) 0 0 no-repeat;
+}
+
+.ie6 .page-parent-faculty-staff #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-faculty-staff.png');
+}
+
+.page-parent-alumni-giving #sidebar_icon {
+	background: url(images/icon-alumni-giving.png) 0 0 no-repeat;
+}
+
+.ie6 .page-parent-alumni-giving #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-alumni-giving.png');
+}
+
+.page-parent-future-students #sidebar_icon {
+	background: url(images/icon-future-students.png) 0 0 no-repeat;
+}
+
+.ie6 .page-parent-future-students #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-future-students.png');
+}
+
+.page-parent-high-school-students #sidebar_icon {
+	background: url(images/icon-high-school-students.png) 0 0 no-repeat;
+}
+
+.ie6 .page-parent-high-school-students #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-high-school-students.png');
+}
+
+.page-parent-workforce-community #sidebar_icon {
+	background: url(images/icon-workforce-community.png) 0 0 no-repeat;
+}
+
+.ie6 .page-parent-workforce-community #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-workforce-community.png');
+}
+
+.error404 #sidebar_icon {
+	background: url(images/icon-default.png) 0 0 no-repeat !important;
+}
+
+.ie6 .error404  #sidebar_icon {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/themes/wvup/images/icon-default.png') !important;
+}
+h2, li
+{
+	list-style-type: horizontal;
+}
