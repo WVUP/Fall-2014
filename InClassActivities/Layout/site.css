@@ -1,3 +1,8 @@
+*
+{
+	box-sizing: border-box;
+}
+
 html, body
 {
 	margin:0;
@@ -24,6 +29,7 @@ html, body
 	background-color: #3B44AD;
 	position:fixed;
 	top:0;
+	z-index: 10;
 }
 
 
@@ -93,4 +99,65 @@ html, body
 {
 	width:100%;
 	background-color: white;
+	margin-top: 60px;
+	min-height: 100%;
+}
+
+.left-nav
+{
+	width:250px;
+	height:100%;
+	background-color: #E3B11F;
+	position:relative;
+
+}
+
+.menu-links
+{
+	padding-top: 230px;
+	text-align: right;
+	padding-right: 15px;
+	color: blue;
+}
+
+.submenu-container
+{
+	width:960px;
+	height:0;
+	background-color: lime;
+	/*display: none;*/
+	visibility: hidden;
+	position:absolute;
+	left:0;
+	top:60px;
+	transition: all 0.5s ease;
+}
+.menu > li:hover .submenu-container
+{
+	/*display: block;*/
+	height:400px;
+	visibility: visible;
+}
+
+.submenu-container .section
+{
+	font-size: 1.5em;
+	color:red;
+
+}
+
+.article
+{
+	float:left;
+	width: 200px;
+}
+
+.nudger li
+{
+	transition:all 0.5s ease;
+}
+
+.nudger li:hover
+{
+	text-indent:10px;
 }
