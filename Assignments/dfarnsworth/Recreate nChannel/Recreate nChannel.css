@@ -1,0 +1,150 @@
+body, html{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	font-family: Times;
+/*
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+*/
+}
+
+.container{
+
+}
+/*
+.header-hidden{
+	background-color: #353845;
+	height: 35px;
+}
+
+.header-fixed{
+	background-color: #3b3e4b;
+	height: 85px;
+}
+*/
+
+.header-fixed{
+	background-color: #3b3e4b;
+	height: 56px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+#logo{
+	padding-left: 200px;
+	padding-top: 8px;
+}
+
+.header-fixed div{
+	float: right;
+}
+
+.header-fixed h5{
+	margin: 0;
+	color: #727584;
+	font-size: 14px;
+	line-height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.links p{
+	margin-top: 6px;
+	margin-right: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	display: block;
+	line-height: 40px;
+	font-weight: 900;
+}
+
+.intro{
+	background-color: #9cdcf2;
+	height: 650px;
+}
+
+.dots{
+	background: "https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png";
+	height: 200px;
+
+}
+
+.connect{
+	background-color: #ee7541;
+	line-height: 100px; 
+}
+
+.connect h1{
+	color: white;
+	text-align: center;
+
+}
+
+.basic{
+	background-color: white;
+	height: 600px;
+}
+
+.explore{
+	background-color:  #f4f4f4;
+	height: 600px;
+
+}
+
+.we-can-help{
+	background-color: 
+}
+
+#support{
+	background-image: url('orange-back.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 615px;
+	position: relative;
+	z-index: 9;
+}
+
+.certified{
+	background-color: #f4f4f4;
+	width: 100%;
+	height: 150px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+.certified img{
+	float: left;
+}
+
+.news{
+	background-color: #3b3e4b;
+	color: white;
+}
+
+.inline li{
+}
+
+.copyright{
+	background-color: #333643;
+	color: white;
+	text-align: center;
+}
+
+.copyright h5{
+	margin: 0;
+	line-height: 80px;
+}
+
+h1{
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+}

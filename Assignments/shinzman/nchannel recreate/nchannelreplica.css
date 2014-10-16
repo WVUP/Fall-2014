@@ -6,6 +6,51 @@ html, body
 	width:100%;
 	background-color: white;
 }
+button
+{
+	font-family: "Roboto","Helvetica",sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 16px;
+	padding: 10px 20px 12px 20px;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	color: white;
+	background-color: #22b0e6;
+	border-radius: 0px 10px 0px 10px;
+	transition: all 0.2s ease-in-out;
+}
+button:hover
+{
+	background-color: #555;
+	cursor: pointer;
+}
+a 
+{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover
+{
+	color: #22b0e6;
+}
+.connections
+{
+	padding: 0px 25px 35px 25px;
+	font-family: "Kreon","Times New Roman",serif;
+	font-weight: 700;
+	font-size: 18px;
+	margin: 0 auto 3px auto;
+	color: #6b6b6b;
+	max-width: 200px;
+	border: 2px solid #f4f4f4;
+
+}
+.connections:hover
+{
+	border: 3px solid #ee7541;
+	cursor: pointer;
+}
 .midline
 {
 	border-right: 1px solid grey;
@@ -49,6 +94,35 @@ html, body
 .center
 {
 	text-align: center;
+}
+.greyheader
+{
+	font-family: "Kreon","Times New Roman",serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 27pt;
+	color: #6b6b6b;
+	margin: 0;
+	padding: 10px 0 5px 0;
+}
+.greytext
+{
+	color: #6b6b6b;
+	font-family: "Roboto","Helvetica",sans-serif;
+	font-weight: 300;
+	line-height: 18pt;
+	font-size: 16px;
+}
+.greytext2
+{
+	text-decoration: none;
+	color: #6b6b6b;
+	font-family: "Kreon","Times New Roman",serif;
+	font-weight: 700;
+	font-size: 15px;
+	white-space: nowrap;
+	margin: 0 5px 0 0;
+	transition: all 0.2s ease-in-out;
 }
 .whiteheader
 {
@@ -166,6 +240,48 @@ html, body
 .td9
 {
 	background-image: url(9big.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td10
+{
+	background-image: url(10.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td11
+{
+	background-image: url(11quick.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td12
+{
+	background-image: url(12sage.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td13
+{
+	background-image: url(13asp.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td14
+{
+	background-image: url(14epicor.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td15
+{
+	background-image: url(15infor.png);
 	background-repeat: no-repeat;
 	width: 305px;
 	height: 119px;

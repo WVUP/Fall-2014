@@ -1,0 +1,29 @@
+body
+{
+	background-color:lightblue;
+	margin: 0;
+}
+.logo
+{
+	display: inline-block;
+}
+.button
+{
+	position: relative;
+	float:right;
+	font-size:100%;
+	text-align: center;
+	width:relative;
+	display: inline-block;
+	padding-top:20px;
+	padding-left: 6px;
+	padding-right: 6px;	
+	height:35px;
+	right:15%;
+	color:rgb(114,117,132);
+}
+.button:hover
+{
+	color:white;
+	cursor:pointer;
+}
