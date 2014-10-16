@@ -1,0 +1,172 @@
+html, body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	background-color: white;
+}
+.midline
+{
+	border-right: 1px solid grey;
+	padding:10px;
+}
+.header1
+{
+	height: 54px;
+	width: 100%;
+	margin: 0;
+	background-color: #3b3e4b;
+	position: fixed;
+	z-index: 10;
+}
+.header2
+{
+	height: 99px;
+	width: 100%;
+	margin: 0;
+	background-color: #f4f4f4;
+	position: fixed;
+	z-index: 9;
+}
+.centerdiv
+{
+	text-align: center;
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	max-width: 600px;
+	padding: 75px 0px 0px 0px;
+}
+.centertable
+{
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	max-width: 600px;
+}
+.center
+{
+	text-align: center;
+}
+.whiteheader
+{
+	color: #fff;
+	font-family: "Kreon","Times New Roman",serif;
+	font-size: 34px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	line-height: 30pt;
+}
+.whitetext
+{
+	color: #fff;
+	font-family: "Kreon","Times New Roman",serif;
+	font-size: 20px;
+	margin: 10px 0 0 0;
+	line-height: 22pt;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.div1
+{
+	padding-top: 54px;
+	height: 100%;
+	background-color: #9cdcf2;
+}
+.div2
+{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	padding: 0 20px;
+}
+.div3
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	height: 35%;
+}
+.div4
+{
+	background-color: #3b3e4b;
+	width: 100%;
+	height: 55%;
+}
+.div5
+{
+	background-color: #333643;
+	width: 100%;
+	height: 15%;
+}
+.divFirst
+{
+	background-image: url(connectors-icons.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 164px;
+}
+.td1
+{
+	background-image: url(netsuit.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td2
+{
+	background-image: url(magento.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td3
+{
+	background-image: url(shopify.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td4
+{
+	background-image: url(4amazon.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td5
+{
+	background-image: url(5amazon.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td6
+{
+	background-image: url(6amazon.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td7
+{
+	background-image: url(7light.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td8
+{
+	background-image: url(8ebay.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
+.td9
+{
+	background-image: url(9big.png);
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 119px;
+}
