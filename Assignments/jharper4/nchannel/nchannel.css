@@ -11,6 +11,7 @@ body
 {
 	position: relative;
 	float:right;
+	font-size:100%;
 	text-align: center;
 	width:relative;
 	display: inline-block;
