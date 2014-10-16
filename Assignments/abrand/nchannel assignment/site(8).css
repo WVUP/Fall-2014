@@ -9,7 +9,7 @@
 
 	.container
 	{
-		width: 960px;
+		width: 100%;
 		height: 100%;
 		margin: 0 auto;
 		background-color: lightblue;
@@ -20,6 +20,7 @@
 		height: 60px;
 		width: 100%;
 		background-color: lightgrey;
+		float: left;
 
 	}
 
@@ -35,12 +36,14 @@
 
 	h2
 	{
-		color: white;
+		color: #6b6b6b;
 		font-family: "Kreon","Times New Roman",serif;
-		font-size: 34px;
-		text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-		line-height: 30pt;
+		font-weight: 900;
+		margin: 20px 0 5px 0;
+		font-size: 30px;
+		line-height: 27pt;
 		text-align: right;
+		padding-right: 30px;
 	}
 
 
@@ -52,7 +55,7 @@
 		margin: 10px 0 0 0;
 		line-height: 22pt;
 		font-weight: 400;
-		text-shadow: 1px 1px 1px rgba(0,0,0,0.3)
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 		text-align: center;
 	}
 
@@ -66,6 +69,7 @@
 		height: 100%;
 		width: 155px;
 		z-index: 100000000;
+		background-repeat: no-repeat;
 		
 
 	}
@@ -88,4 +92,16 @@
 		display: block;
 		z-index: 10000000;
 		width: 100%;
+	}
+
+	img 
+	{
+		float: left;
+	}
+
+	.goright
+	{
+		text-align: right;
+		margin-left: 650px;
+		padding-right: 30px;
 	}
