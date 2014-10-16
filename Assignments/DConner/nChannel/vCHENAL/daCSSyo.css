@@ -1,0 +1,50 @@
+.linkBar{
+margin: 0%;
+padding-top: 25px;
+border: 0;
+background: #EE7541;
+text-align: center;
+height: 64px;
+}
+.blueBack{
+background: #9Cdcf2;
+}
+.greyBack{
+background: #f4f4f4;
+}
+.darkGreyBack{
+background: #3b3e4b;
+}
+.darkerGreyBack{
+background: #333643;
+}
+.orangeBack{
+background: #ee7541;
+}
+.insideLinkBar{
+font-size: 180%;
+color: white;
+font-family: Georgia;
+}
+
+.inlineMe{
+display: inline;
+}
+
+.buffer{
+margin-top: 4px;
+}
+.gently{
+width: 50%
+}
+.centerme{
+text-align: center;
+}
+h5{
+color: #EE7541;
+font-weight: bold
+}
+.mothership{
+margin-left: 20%;
+margin-right: 20%;
+}
