@@ -104,4 +104,16 @@
 		text-align: right;
 		margin-left: 650px;
 		padding-right: 30px;
+
 	}
+
+.quarter1
+{
+	padding-right: 50px;
+	float: right;
+}
+
+.rightalign
+{
+	text-align: right;
+}
