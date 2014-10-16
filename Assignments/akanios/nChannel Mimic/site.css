@@ -1,0 +1,152 @@
+html, body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	background-color: white;
+}
+
+.hidheader
+{
+	height:35px;
+	overflow:hidden;
+	background-color: #353845;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.toptext
+{
+	position: relative;
+	float: right;
+	padding: 20px;
+	color: #7f8291;
+	bottom: 25px;
+	font-size: 11pt;
+
+}
+
+.overheader
+{
+	position: fixed absolute;
+	height: 85px;
+	background-color: #3b3e4b;
+	background-image: url(logo.jpg); 
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 10px;
+}
+
+.logo
+{
+	right: 100px;
+	position: relative;
+	top: 0px;
+	width: 155px;
+	z-index: 100000000;
+	text-indent:-99999px;
+}
+
+.bluebody
+{
+	width: 100%;
+	height: 355px;
+	background-color: #9cdcf2;
+	position: absolute;
+}
+
+.bluetext
+{
+	position: relative;
+	font-family: "Kreon","Times New Roman",serif;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	line-height: 30pt;
+	top: 35px;
+}
+
+ul
+{
+	color: #7f8291;
+	position: absolute;
+	right: 10px;
+
+}
+
+li
+{
+	float: right;
+	font-size: 15px;
+	padding: 20px 5px;
+	position: relative;
+	font-family: "Kreon","Times New Roman",serif;
+}
+
+.boxcolumn
+{
+	width: 940px;
+	height: 642px;
+	background-color: #fff;
+	border-left: 2px solid #e8e8e8;
+	border-right: 2px solid #e8e8e8;
+	border-top: 2px solid #e8e8e8;
+	margin: -40px auto 0 auto;
+	box-shadow: 0 0 25px rgba(0,0,0,0.08);
+	border-radius: 5px 5px 0 0;
+	position: relative;
+	top: 300px;
+}
+
+.column
+{
+	width: 234px;
+	height: 642px;
+	position: relative;
+	float: left;
+	border-left: 2px solid #e8e8e8;
+	box-sizing: border-box;
+	font-size: 10pt;
+	font-color: red;
+}
+
+.quotebox
+{
+	background-color: #ee7541;
+	height: 156px;
+	width: 100%;
+	position: relative;
+	z-index: 100;
+	top: 280px;
+}
+
+.quotetext
+{
+	position: relative;
+	font-family: serif;
+	text-align: center;
+	color: white;
+	top: 40px;
+
+}
+
+.btn
+{
+	padding: 11px 20px 13px 20px;
+	background-color: #22b0e6;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+	color: white;
+	text-decoration: none;
+	margin: 15px 0 40px 0;
+	position: relative;
+	top: 60px;
+	left: 580px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
