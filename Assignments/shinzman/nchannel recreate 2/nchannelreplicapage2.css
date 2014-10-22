@@ -1,0 +1,117 @@
+html, body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	background-color: white;
+}
+button
+{
+	font-family: "Roboto","Helvetica",sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 16px;
+	padding: 10px 20px 12px 20px;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	color: white;
+	background-color: #22b0e6;
+	border-radius: 0px 10px 0px 10px;
+	transition: all 0.2s ease-in-out;
+}
+button:hover
+{
+	background-color: #555;
+	cursor: pointer;
+}
+.left
+{
+	text-align: left;
+}
+.header1
+{
+	height: 54px;
+	width: 100%;
+	margin: 0;
+	background-color: #3b3e4b;
+	position: fixed;
+	z-index: 10;
+}
+.blueBackground
+{
+	background-color: #9cdcf2;
+}
+.height1
+{
+	height: 258px;
+	padding-top: 75px;
+}
+.height2
+{
+	height: 204px;
+}
+.height3
+{
+	height: 107px;
+}
+.center
+{
+	text-align: center;
+}
+.padding1
+{
+	padding: 50px 20px;
+}
+.padding2
+{
+	padding: 25px;
+}
+.margin1
+{
+	margin: 0 0 5px 0;
+}
+.bottomBorder
+{
+	border-bottom: 1px solid grey;
+}
+.orangeBackground
+{
+	background-image: url("https://www.nchannel.com/wp-content/themes/nchannel/images/solutions-clouds.jpg");
+	background-repeat: no-repeat;
+	height: auto;
+	padding: 70px 0 80px 0;
+	background-size: cover;
+	background-position: center center;
+}
+.lightGreyBackground
+{
+	background-color: #f4f4f4;
+	height: 167px;
+}
+.greyBackground
+{
+	background-color: #3b3e4b;
+	height: 254px;
+}
+.darkGreyBackground
+{
+	background-color: #333643;
+	height: 61px;
+}
+.noMargin
+{
+	margin-right: 0px; 
+	margin-left: 0px; 
+}
+.whiteBorder
+{
+	width: 100%;
+	border: 3px solid #fff;
+	text-align: left;
+	margin: 0;
+	padding: 15px 20px 16px 20px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+	border-radius: 0px 20px 0px 20px;
+}
