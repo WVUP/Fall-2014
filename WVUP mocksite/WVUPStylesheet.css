@@ -1,0 +1,183 @@
+/*A list of universal classes*/
+
+.lineBreak
+{
+	display: block;
+}
+
+/*------------------------------------------*/
+
+
+
+
+.containerContainer /*The Mother Container*/
+{
+		padding-left:10%;
+		padding-right: 10%;
+		width:auto;
+		height:900px;
+		position: absolute;
+}
+
+
+#headerContainer /*contains header*/
+{
+	width:87%;
+	height:5%;
+	background-color:rgb(16,26,133);
+
+}
+
+.goldBG /*For gold background*/
+{
+	height:100%;
+	width:5%;
+	float:left;
+	padding-right:1%;
+	background-color:rgb(227,177,31);
+	color:rgb(16,26,133);
+	transition:1.5s;
+}
+
+.goldBG:hover /*for gold Home button */
+{
+	background-color:rgb(16,26,133);
+	color:rgb(227,177,31);
+}
+
+
+.headerSpacer /*Sets up header size and configures spacing between boxes*/
+{
+	background-color:rgb(16,26,133);
+	height:100%;
+	width:auto;
+	float:left;
+	border-left: 1px solid #e3b11f;
+	border-right: 1px solid #e3b11f;
+	white-space:nowrap;
+	padding-right:1%;
+	font-size:13;
+	color:rgb(227,177,31);
+  	transition:1.5s;
+}
+
+.headerSpacer:hover /*Hover command*/
+{
+	
+	background-color:rgb(227,177,31);
+	color:rgb(16,26,133);
+}
+
+
+
+.leftColumn
+{
+	position: relative;
+	width:20%;
+	height:135%;
+	background-color:rgb(227,177,31);
+	float:left;
+	padding-right:1%;
+	border-radius:15px;
+
+}
+
+
+.assortedLinks
+{
+
+	font-size:12;
+
+}
+
+.floatLeft
+{
+	float:left;
+}
+
+.middlePage
+{
+	padding-left:1%;
+	height:auto;
+	width:40%;
+	float:left;
+	white-space:nowrap;
+	padding-bottom:10%;
+	border-bottom: 1px solid black;
+	border-radius:15px;
+	background-color:white;
+
+}
+.calendar
+{
+	width:auto;
+	height:auto;
+	float:left;	
+	padding-left:3.75%;
+
+}
+
+.newsFeedTitle
+{
+	
+	float:left;
+	width:75%;
+	max-width:100%;
+	height:auto;
+	white-space: normal;
+	font-size:14;
+}
+.newsFeedStory
+{
+	
+	padding-top:5%;
+	width:auto;
+	height:auto;
+	font-size:13;
+	float:left;
+	white-space:normal;
+	padding-bottom:5%;
+	border-bottom: 1px solid black;
+
+}
+
+
+.associations
+{
+	padding-top:5%;
+	float:left;
+	max-width:95%;
+}
+
+
+.contactInfo
+{
+	float:left;
+	width:auto;
+	max-width: 50%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	font-size:12;
+	padding:2%;
+	text-align:center;
+	font-style:bold;
+}
+
+
+.bottomOfPage
+{
+	height:auto;
+	width:70%;
+	border-radius:15px;
+}
+
+
+.address
+{
+	float:left;
+	height:auto;
+	width:55%;
+	max-width:80%;
+	font-size:10;
+	text-align:center;
+}
