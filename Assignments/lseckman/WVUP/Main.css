@@ -1,0 +1,80 @@
+ul li {
+	display: inline-block;
+	position:relative;
+}
+
+.menpos {
+	position: relative;
+	background: blue; 
+	font-size: large; 
+	width: 100%;
+ 	margin: 0 auto;
+}
+
+.menu ul {
+	display: none;
+}
+
+.menu li {
+	position:relative;
+	background-color: blue;
+}
+
+.menu li:hover {
+	background-color: #E6B800;
+}
+
+.menu li ul {
+	width:200px;
+}
+
+.menu li:hover ul {
+	display: block;
+}
+
+.submenu li:hover{
+	background-color: darkblue;
+}
+
+.submenu li{
+	background-color: #E6B800;
+}
+
+.submenu {
+	position: relative;
+	background-color: #E6B800;
+}
+
+.leftbar{
+	position: relative;
+	background: linear-gradient(#E6B800, white);
+  	top: -16px;
+  	left: 68px;
+  	width: 200px;
+  	padding-bottom: 600px;
+}
+
+.lipos{
+	padding-top: 300px;
+	padding-right: 0px;
+	padding-left: 40px;
+}
+
+.main{
+	position: fixed;
+	padding-left: 250px;
+}
+
+.blog{
+	position: relative;
+	background-color: white;
+
+}
+
+html {
+	background-color: lightblue;
+}
+
+h1{
+	color: blue;
+}
