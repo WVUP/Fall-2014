@@ -1,28 +1,37 @@
+*
+{
+	box-sizing: border-box;
+}
+
 html, body
 {
 	margin:0;
 	padding:0;
 	height:100%;
-	width:100%;
+	width:1348px;
 	background-color: white;
 }
+
+.container
+{
+	width:1348px;
+	height:100%;
+	margin:0 auto;
+	position: relative;
+}
+
 
 .hidheader
 {
 	height:35px;
 	overflow:hidden;
 	background-color: #353845;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
 }
 
 .toptext
 {
 	position: relative;
-	float: right;
+	left: 980px;
 	padding: 20px;
 	color: #7f8291;
 	bottom: 25px;
@@ -32,31 +41,124 @@ html, body
 
 .overheader
 {
-	position: fixed absolute;
+	position: relative;
 	height: 85px;
+	width: 100%;
 	background-color: #3b3e4b;
-	background-image: url(logo.jpg); 
-	background-repeat: no-repeat;
 	background-position: left;
 	padding-left: 10px;
 }
 
+.centerHeader
+{
+	height: 85px;
+	width: 980px;
+	position: relative;
+}
+
 .logo
 {
-	right: 100px;
 	position: relative;
-	top: 0px;
-	width: 155px;
-	z-index: 100000000;
-	text-indent:-99999px;
+	left: 200px;
+	top: 20px;
 }
+
+.barText
+{
+	color: #7f8291;
+	font-size: 21px:;
+	font-weight: 700;
+	left: 305px;
+	position: relative;
+	bottom: 30px;
+	text-decoration: none;
+}
+
+
 
 .bluebody
 {
 	width: 100%;
 	height: 355px;
 	background-color: #9cdcf2;
+	position: relative;
+	bottom: 21px;
+}
+
+.under
+{
+	height: 36px;
 	position: absolute;
+	right: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100000;
+	margin: 0 auto;
+	max-width: 970px;
+	padding: 0 13px;
+}
+
+.btnChat
+{
+	padding: 0px 12px 13px 12px;
+	height: 86px;
+	width: 36px;
+	background-color: #ebad06;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: sans-serif;
+	font-style: italic;
+	color: white;
+	text-decoration: none;
+	border-radius: 0px 0px 4px 4px;
+	position: relative;
+	left: 500px;
+}
+
+.btnQuote
+{
+	padding: 0px 12px 13px 12px;
+	height: 86px;
+	width: 36px;
+	background-color: #22b0e6;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: sans-serif;
+	font-style: italic;
+	color: white;
+	text-decoration: none;
+	border-radius: 0px 0px 4px 4px;
+	position: relative;
+	left: 500px;
+}
+
+.btnTel
+{
+	padding: 0px 12px 13px 12px;
+	height: 86px;
+	width: 36px;
+	background-color: #ee7541;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: sans-serif;
+	font-style: italic;
+	color: white;
+	text-decoration: none;
+	border-radius: 0px 0px 4px 4px;
+	position: relative;
+	left: 500px;
+}
+
+
+.dots
+{
+	width: 870px;
+	height:100px;
+	position: relative;
+	background-image: url(dot-pat.jpg);
+	background-repeat: repeat-x repeat-y;
+	bottom: 110px;
+	left: 230px;
 }
 
 .bluetext
@@ -67,24 +169,7 @@ html, body
 	color: white;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	line-height: 30pt;
-	top: 35px;
-}
-
-ul
-{
-	color: #7f8291;
-	position: absolute;
-	right: 10px;
-
-}
-
-li
-{
-	float: right;
-	font-size: 15px;
-	padding: 20px 5px;
-	position: relative;
-	font-family: "Kreon","Times New Roman",serif;
+	top: 90px;
 }
 
 .boxcolumn
@@ -99,7 +184,7 @@ li
 	box-shadow: 0 0 25px rgba(0,0,0,0.08);
 	border-radius: 5px 5px 0 0;
 	position: relative;
-	top: 300px;
+	bottom: 120px;
 }
 
 .column
@@ -110,8 +195,13 @@ li
 	float: left;
 	border-left: 2px solid #e8e8e8;
 	box-sizing: border-box;
-	font-size: 10pt;
-	font-color: red;
+}
+
+.colHead
+{
+	font-size: 14px;
+	color: #ee7541;
+	font-weight: 700;
 }
 
 .quotebox
@@ -121,7 +211,7 @@ li
 	width: 100%;
 	position: relative;
 	z-index: 100;
-	top: 280px;
+	bottom: 140px;
 }
 
 .quotetext
@@ -130,11 +220,14 @@ li
 	font-family: serif;
 	text-align: center;
 	color: white;
-	top: 40px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 22pt;
+	padding: 30px 0 0 0;
 
 }
 
-.btn
+.btnContact
 {
 	padding: 11px 20px 13px 20px;
 	background-color: #22b0e6;
@@ -145,38 +238,153 @@ li
 	text-decoration: none;
 	margin: 15px 0 40px 0;
 	position: relative;
-	top: 60px;
 	left: 580px;
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
 
+.bottomLists
+{
+	position: absolute;
+	width: 100%;
+	height: 380px;
+}
+
+.monthP
+{
+	font-family: "Kreon","Times New Roman",serif;
+	color: #6b6b6b;
+	font-size: 24px;
+	text-align: left;
+	margin: 0;
+	font-weight: 700;
+	line-height: 22pt;
+	padding: 0 0 20px 0;
+	left: 200px;
+	bottom: 90px;
+	position: relative;
+}
+
+.list1
+{
+	color: #c2c2c2;
+	font-family: "Roboto","Helvetica",sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 16pt;
+	font-size: 14px;
+	position: relative;
+	list-style-type: none;
+	margin: 0 0 15px 0;
+	padding: 0 0 0 35px;
+	bottom: 110px;
+	left: 150px;
+}
+
+.oneTime
+{
+	font-family: "Kreon","Times New Roman",serif;
+	color: #6b6b6b;
+	font-size: 24px;
+	text-align: left;
+	margin: 0;
+	font-weight: 700;
+	line-height: 22pt;
+	padding: 0 0 20px 0;
+	left: 730px;
+	bottom: 440px;
+	position: relative;
+}
+
+.list2
+{
+	color: #c2c2c2;
+	font-family: "Roboto","Helvetica",sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 16pt;
+	font-size: 14px;
+	position: relative;
+	list-style-type: none;
+	margin: 0 0 15px 0;
+	padding: 0 0 0 35px;
+	bottom: 450px;
+	left: 700px;
+}
+
+.checklist
+{
+	list-style-image: url(check.jpg);
+}
+
 .logos
 {
-	width: 1663px;
+	width: 100%;
 	height: 167px;
 	background-color: #f4f4f4;
+	-webkit-background-size: cover;
 	padding: 30px 0;
 	text-align: center;
-	top: 280px;
+	bottom: 350px;
 	position: relative;
+}
+
+.logimg
+{
+	width: 198px;
+	height: 107px;
 }
 
 .footer
 {
 	position: relative;
-	width: 1663px;
-	height: 315px;
+	width: 100%;
+	height: 260px;
 	background-color: #3b3e4b;
-	top:280px;
+	bottom: 370px;
+}
 
+.connect
+{
+	position: relative;
+	font-family: sans-serif;
+	font-weight: 300;
+	left: 300px;
+	color: #fff;
+
+}
+
+.bottombtn
+{
+	color: #3b3e4b;
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	float: left;
+	background-color: #ee7541;
+	line-height: 24pt;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
 }
 
 .copyright
 {
 	position: relative;
-	width: 1663px;
+	width: 100%;
 	height: 61px;
 	background-color: #333643;
-	top: 280px;
+	bottom: 370px;
+}
+
+.copytext
+{
+	font-size: 15px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 16pt;
+	position: relative;
+	left: 500px;
+	top: 15px;
+	font-family: sans-serif;
 }
