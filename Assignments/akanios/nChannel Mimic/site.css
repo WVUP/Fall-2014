@@ -351,7 +351,6 @@ html, body
 	font-weight: 300;
 	left: 300px;
 	color: #fff;
-
 }
 
 .bottombtn
@@ -366,7 +365,39 @@ html, body
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
+	padding: 8px;
+	border-radius: 50%;
 }
+
+.facebtn
+{
+	position: relative;
+}
+
+.twibtn
+{
+	left: 10px;
+	position: relative;
+}
+
+.linbtn
+{
+	left: 20px;
+	position: relative;
+}
+
+.youbtn
+{
+	left: 30px;
+	position: relative;
+}
+
+.goobtn
+{
+	left: 40px;
+	position: relative;
+}
+
 
 .copyright
 {
