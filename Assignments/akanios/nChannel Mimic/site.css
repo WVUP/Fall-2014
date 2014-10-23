@@ -243,6 +243,12 @@ html, body
 	border-bottom-left-radius: 10px;
 }
 
+.btnContact:hover
+{
+	background-color: #514242;
+	transition: all 0.2s ease-in-out;
+}
+
 .bottomLists
 {
 	position: absolute;
@@ -367,6 +373,13 @@ html, body
 	cursor: pointer;
 	padding: 8px;
 	border-radius: 50%;
+}
+
+.bottombtn:hover
+{
+	background-color: #514242;
+	transition: all 0.2s ease-in-out;
+
 }
 
 .facebtn
