@@ -5,6 +5,7 @@
 		height: 100%;
 		width: 100%;
 		background-color: lightblue;
+
 	}
 
 	.container
@@ -34,8 +35,8 @@
 		text-align: center;
 	}
 
-	h2
-	{
+h2
+{
 		color: #6b6b6b;
 		font-family: "Kreon","Times New Roman",serif;
 		font-weight: 900;
@@ -44,12 +45,12 @@
 		line-height: 27pt;
 		text-align: right;
 		padding-right: 30px;
-	}
+}
 
 
-	p
-	{
-		color: #fff;
+p
+{
+		color: black;
 		font-family: "Kreon","Times New Roman",serif;
 		font-size: 20px;	
 		margin: 10px 0 0 0;
@@ -57,11 +58,11 @@
 		font-weight: 400;
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 		text-align: center;
-	}
+}
 
 
-	.logo
-	{
+.logo
+{
 		background-image: url(https://www.nchannel.com/wp-content/themes/nchannel/images/logo.png);
 		left: 20px;
 		position: absolute;
@@ -72,40 +73,40 @@
 		background-repeat: no-repeat;
 		
 
-	}
+}
 
 
-	body > div.footer-section
-	{
+body > div.footer-section
+{
 		background-color: #3b3e4b;
 		overflow: hidden;
 		padding: 35px 0 0 0;
 		vertical-align: baseline;
-	}
+}
 
-	body > div.header-section
+body > div.header-section
 
-	{
+{
 		position: fixed;
 		right: 0;
 		left: 0;
 		display: block;
 		z-index: 10000000;
 		width: 100%;
-	}
+}
 
-	img 
-	{
+img 
+{
 		float: left;
-	}
+}
 
-	.goright
-	{
+.goright
+{
 		text-align: right;
 		margin-left: 650px;
 		padding-right: 30px;
 
-	}
+}
 
 .quarter1
 {
@@ -116,4 +117,43 @@
 .rightalign
 {
 	text-align: right;
+}
+
+.blocks
+{
+	background-color: white;
+}
+
+.width
+{
+	width: 100%;
+}
+
+body > div.footer-section
+{
+	background-color: #3b3e4b;
+	overflow: hidden;
+	padding: 35px 0 0 0;
+}
+
+body > div.footer-section > div.copyright
+{
+	text-align: center;
+	font-family: "Roboto","Helvetica",sans-serif;
+	font-weight: 900;
+	text-align: center;
+	background-color: #333643;
+	padding: 20px 0;
+	margin: 35px 0 0 0;
+}
+
+
+#integration
+{
+	padding: 70px 0 80px 0;
+	background-image: url("images/solutions-clouds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-ms-behavior: url(/backgroundsize.min.htc);
+	background-position: center center;
 }
