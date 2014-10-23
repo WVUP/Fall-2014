@@ -1,0 +1,71 @@
+.linkBar{
+margin: 0%;
+padding-top: 25px;
+border: 0;
+background: #EE7541;
+text-align: center;
+height: 64px;
+}
+.blueBack{
+background: #9Cdcf2;
+}
+.darkBlueBack{
+background: #22b0e6;
+}
+.greyBack{
+background: #f4f4f4;
+}
+.darkGreyBack{
+background: #3b3e4b;
+}
+.darkerGreyBack{
+background: #333643;
+}
+.orangeBack{
+background: #ee7541;
+}
+.insideLinkBar{
+font-size: 180%;
+color: white;
+font-family: Georgia;
+}
+
+.inlineMe{
+display: inline;
+}
+
+.buffer{
+margin-top: 4px;
+}
+.gently{
+width: 50%
+}
+.centerme{
+text-align: center;
+}
+.rightMe{
+float: right;
+margin: 4px;
+padding-top: 17px;
+}
+.leftMe{
+text-align: left;
+}
+h5{
+color: #EE7541;
+font-weight: 800;
+}
+.mothership{
+margin-left: 20%;
+margin-right: 20%;
+}
+
+.sectionMarker{
+width: 100%;
+max-width:640px;
+}
+
+.allMighty{
+width: 66%;
+min-width: 939px;
+}

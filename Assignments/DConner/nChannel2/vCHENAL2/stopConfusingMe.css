@@ -1,0 +1,65 @@
+.normalFont{
+font-size: 120%;
+}
+
+.ofMemory{
+position: fixed;
+}
+
+.fullSize{
+width: 100%;
+}
+
+.whiteText{
+color: #ffffff;
+}
+.greyText{
+color: #6b6b6b;
+}
+
+.fixedHeight{
+height: 64px;
+}
+
+.extraLargeFont{
+font-size: 230%;
+}
+
+.largeFont{
+font-size: 200%;
+}
+
+.mediumFont{
+font-size: 135%;
+}
+
+.smallFont{
+font-size: 80%;
+}
+
+.thinFont{
+font-weight: 200;
+}
+
+.leafletBorder{
+border: 3px solid;
+border-radius: 0px 20px;
+border-color: #FFFFFF;
+}
+.blueLeafletBorder{
+border: 1px solid;
+border-radius: 0px 20px;
+border-color: #22b0e6;
+}
+.orangeLeafletBorder{
+border:1px solid;
+border-radius: 0px 20px;
+border-color: #ee7541
+}
+
+.topPadding{
+padding-top: 32px;
+}
+.bottomPadding{
+padding-bottom: 32px;
+}
