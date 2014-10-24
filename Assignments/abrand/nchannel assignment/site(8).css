@@ -157,3 +157,16 @@ body > div.footer-section > div.copyright
 	-ms-behavior: url(/backgroundsize.min.htc);
 	background-position: center center;
 }
+
+
+#industry-blocks > h2
+{
+	font-family: "Kreon","Times New Roman",serif;
+color: #6b6b6b;
+font-size: 30px;
+text-align: center;
+margin: 0 0 35px 0;
+font-weight: 700;
+line-height: 29pt;
+}
+}
