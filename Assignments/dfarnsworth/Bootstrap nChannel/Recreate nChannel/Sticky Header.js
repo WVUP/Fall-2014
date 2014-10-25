@@ -15,3 +15,12 @@ if ($(this).scrollTop() > 1){
     $('#poof').removeClass("show");
   }
 });
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){  
+    $('#np').addClass("nopad");
+  }
+  else{
+    $('#np').removeClass("nopad");
+  }
+});
