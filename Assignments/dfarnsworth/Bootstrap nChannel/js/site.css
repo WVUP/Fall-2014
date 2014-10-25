@@ -1,0 +1,38 @@
+ul li
+{
+	display: inline-block;
+
+}
+
+.menu ul
+{
+	display: none;
+}
+
+.menu li
+{;
+	background-color: lime;
+	line-height: 40px;
+}
+
+.menu li:hover
+{
+	background-color: yellow;
+	color:red;
+}
+
+.menu li ul
+{
+	width:200px;
+}
+
+.menu li:hover ul
+{
+	display: block;
+	color: blue;
+}
+
+.submenu
+{
+	position: absolute;
+}
