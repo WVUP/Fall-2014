@@ -33,7 +33,7 @@ header{
 
 header img{
 	display: inline-block;
-	padding-top: 13px;
+	margin-bottom: 5px;
 	margin-left: 205px;
 	transition: all 0.2s ease;
 }
@@ -47,8 +47,7 @@ header.shrink{
 }
 
 header.shrink img{
-	padding-bottom: 16px;
-	padding-top: 0;
+	padding-top: 12px;
 	width: 110px;
 	transition: all 0.2s ease;
 }
@@ -65,16 +64,20 @@ div#poof.show{
 }
 
 .rmen{
-	margin-top: 18px;
-	color: grey;
+	font-family: Times;
+	color: #7f8291;
 	display: inline-block;
-	text-decoration: none;
+	text-decoration: none;   
+	text-shadow: 1px 0 #7f8291;
+	letter-spacing:.5px;
+	font-weight: bold;
+	margin-left: 30px;
 
 }
 
 .rmen h5:hover{
 	color: white;
-	transition: all .5s ease;
+	transition: all 5s ease;
 }
 
 .rmen:hover{
@@ -83,12 +86,12 @@ div#poof.show{
 	text-decoration: none;
 }
 
-#np.nopad{
-	padding-top: ;
+.lpad{
+	padding-left: 45px;
 }
 
-.nopad{
-	padding-top: ;
+.pad{
+	padding-top: 27px;
 }
 
 /*

@@ -18,9 +18,18 @@ if ($(this).scrollTop() > 1){
 
 $(window).scroll(function() {
 if ($(this).scrollTop() > 1){  
-    $('#np').addClass("nopad");
+    $('#np').addClass("lpad");
   }
   else{
-    $('#np').removeClass("nopad");
+    $('#np').removeClass("lpad");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){  
+    $('#np').removeClass("pad");
+  }
+  else{
+    $('#np').addClass("pad");
   }
 });
