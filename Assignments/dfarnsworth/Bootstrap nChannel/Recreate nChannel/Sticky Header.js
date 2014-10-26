@@ -33,3 +33,21 @@ if ($(this).scrollTop() > 1){
     $('#np').addClass("pad");
   }
 });
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){  
+    $('#hbtn').addClass("smtop");
+  }
+  else{
+    $('#hbtn').removeClass("smtop");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){  
+    $('#hbtn').removeClass("btop");
+  }
+  else{
+    $('#hbtn').addClass("btop");
+  }
+});
