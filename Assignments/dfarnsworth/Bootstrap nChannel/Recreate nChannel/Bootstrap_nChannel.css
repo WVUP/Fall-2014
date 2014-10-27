@@ -330,6 +330,31 @@ s
 	color: #6b6e7c;
 }
 
+.roundbtn{
+	background-color: #ee7541;
+	color: #3b3e4b;
+	padding: 5px 9.25px;
+	border-radius: 40px;
+	float: left;
+}
+
+.twitgoo{
+	padding: 5px 5.75px;
+}
+
+.linkedtube{
+	padding: 5px 6.5px;
+}
+
+.conmar{
+	margin-left: 9px;
+}
+
+.roundbtn:hover{
+	background-color: #5d5d5d;
+	transition: all .2s ease-in-out;
+}
+
 .inline li{
 }
 
