@@ -207,6 +207,8 @@ s
 	font-size: 16px;
 	font-weight: bold;
 	font-style: italic;
+	position: relative;
+	z-index: 6;
 }
 
 #hbtn.btop{
@@ -266,8 +268,7 @@ s
 	margin: 0 15%;
 	width: 70%;
 	height: 200px;
-	position: relative;
-	z-index: 3;
+	z-index: 0;
 
 }
 
