@@ -28,14 +28,14 @@ header{
 	width: 100%;
 	position: fixed;
 	z-index: 10;	
-	transition: all 0.2s ease;
+	transition: all 0.2s ease-in-out;
 }
 
 header img{
 	display: inline-block;
 	margin-bottom: 5px;
 	margin-left: 205px;
-	transition: all 0.2s ease;
+	transition: all 0.2s ease-in-out;
 }
 
 .inlines{
@@ -44,23 +44,33 @@ header img{
 
 header.shrink{
 	height: 56px;
+	position: fixed;
+	z-index: 10;
+	transition: all 0.2s ease-in-out;
 }
 
 header.shrink img{
 	padding-top: 12px;
 	width: 110px;
-	transition: all 0.2s ease;
+	transition: all 0.2s ease-in-out;
 }
 
 div#poof{
 	width: 100%;
 	height: 35px;
 	background-color: #353845;
-	transition: all 0.2s ease;
+	transition: all 0.2s ease-in-out;
 }
 
 div#poof.show{
 	height: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.ullink{
+	float: right;
+	color: #7f8291;
+	display: inline-block;
 }
 
 .rmen{
@@ -72,18 +82,58 @@ div#poof.show{
 	letter-spacing:.5px;
 	font-weight: bold;
 	margin-left: 30px;
+}
 
+.trmen{
+	font-family: Helvetica;
+	color: #7f8291;
+	display: inline-block;
+	text-decoration: underline;
+}
+
+.trmen:hover{
+	color:white;
+}
+
+.trment{
+	font-family: Helvetica;
+	color: #7f8291;
+	display: inline-block;
+	text-decoration: underline;
 }
 
 .rmen h5:hover{
 	color: white;
-	transition: all .2s ease;
+	transition: all .2s ease-in-out;
 }
 
 .rmen:hover{
 	text-decoration: none;
 	color: white;
+}
+
+.brmen{
+	font-family: Times;
+	font-weight: bold;
+	color: #7f8291;
 	text-decoration: none;
+}
+
+.brmen:hover{
+	color: white;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+
+.brmen h4:hover{
+	color: white;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+
+.implode{
+	display: none;
+	transition: all .2s ease-in-out;
 }
 
 .lpad{
@@ -92,6 +142,7 @@ div#poof.show{
 
 .pad{
 	padding-top: 27px;
+	transition: all 0.2s ease-in-out;
 }
 
 /*
@@ -160,12 +211,12 @@ s
 
 #hbtn.btop{
 	padding-top: 120px;
-	transition: all .2s ease;
+	transition: all .2s ease-in-out;
 }
 
 #hbtn.smtop{
 	padding-top: 56px;
-	transition: all .2s ease;
+	transition: all .2s ease-in-out;
 }
 
 .navbtn{
@@ -242,7 +293,7 @@ s
 	width: 100%;
 	height: 615px;
 	position: relative;
-	z-index: 9;
+	z-index: -1;
 }
 
 .certified{
