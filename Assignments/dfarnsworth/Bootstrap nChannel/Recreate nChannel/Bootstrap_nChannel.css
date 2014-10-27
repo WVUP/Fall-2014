@@ -254,8 +254,11 @@ s
 }
 
 .dots{
-	background: "https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png";
+	margin: 0 15%;
+	width: 70%;
 	height: 200px;
+	position: relative;
+	z-index: 3;
 
 }
 
