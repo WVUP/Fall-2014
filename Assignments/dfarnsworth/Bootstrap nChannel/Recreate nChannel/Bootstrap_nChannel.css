@@ -225,8 +225,10 @@ s
 
 .intro{
 	font-family: Times;
+	font-weight: bolder;
 	text-align: center;
 	color: white;
+	text-shadow: 1px 1px #7fb3c4;
 	padding-top: 175px;
 	padding-bottom: 520px;
 	background-color: #9cdcf2;
@@ -251,6 +253,13 @@ s
 	font-style: italic;
 	font-family: Helvetica;
 	background-color: #ee7541;
+	cursor: pointer;
+	color: white;
+}
+
+.button:hover{
+	background-color: #5d5d5d;
+	transition: all .2s ease-in-out;
 }
 
 .dots{
