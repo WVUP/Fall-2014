@@ -92,7 +92,7 @@ if ($(this).scrollTop() > 800 and ($(this).scrollTop() < 1300){
     $x = -800;
     $margin = -1180;
     $x += (this.scrolltop();
-    $margin += 2 * x;
+    $margin += 2.25 * x;
 //Insert margin value into offscreen image margin:
   }
   else{

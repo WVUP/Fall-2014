@@ -353,16 +353,14 @@ s
 
 .Farnsworth{
 	height: 58px;
-	background-color: #9cdcf2;
+	background: linear-gradient(rgba(0,178,238,1),
+				rgba(255,255,255,1), rgba(0,178,238,1));
 }
 
 .Farnsworthr{
 	height: 58px;
-	background-color: #9cdcf2;
-}
-
-.we-can-help{
-	background-color: 
+	background: linear-gradient(rgba(0,178,238,1),
+				rgba(255,255,255,1), rgba(0,178,238,1));
 }
 
 #support{
