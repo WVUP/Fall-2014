@@ -363,6 +363,38 @@ s
 				rgba(255,255,255,1), rgba(0,178,238,1));
 }
 
+.ex0{
+	margin-left: -1170px;
+}
+
+.ex1{
+	margin-left: -1020px;
+}
+
+.ex2{
+	margin-left: -850px;
+}
+
+.ex3{
+	margin-left: -680px;
+}
+
+.ex4{
+	margin-left: -510px;
+}
+
+.ex5{
+	margin-left: -340px;
+}
+
+.ex6{
+	margin-left: -170px;
+}
+
+.ex7{
+	margin-left: 0;
+}
+
 #support{
 	background-image: url('orange-back.png');
 	background-size: 100% 100%;

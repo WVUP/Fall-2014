@@ -100,3 +100,66 @@ if ($(this).scrollTop() > 800 and ($(this).scrollTop() < 1300){
   }
 });
 */
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 900){  
+    $('#lscroll').addClass("ex1");
+  }
+  else{
+    $('#lscroll').removeClass("ex1");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 965){  
+    $('#lscroll').addClass("ex2");
+  }
+  else{
+    $('#lscroll').removeClass("ex2");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1040){  
+    $('#lscroll').addClass("ex3");
+  }
+  else{
+    $('#lscroll').removeClass("ex3");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1115){  
+    $('#lscroll').addClass("ex4");
+  }
+  else{
+    $('#lscroll').removeClass("ex4");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1190){  
+    $('#lscroll').addClass("ex5");
+  }
+  else{
+    $('#lscroll').removeClass("ex5");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1265){  
+    $('#lscroll').addClass("ex6");
+  }
+  else{
+    $('#lscroll').removeClass("ex6");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1340){  
+    $('#lscroll').addClass("ex7");
+  }
+  else{
+    $('#lscroll').removeClass("ex7");
+  }
+});
