@@ -1,0 +1,42 @@
+html
+{
+	background-color: #B8944D;
+	font-size: large;
+}
+
+body
+{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.heading{
+	position: center;
+}
+.main{
+	margin-left: 20%;
+	margin-right:20%;
+}
+
+.menu{
+	position: center;
+	width:100%;
+	font-size: large;	
+	border: 5px solid #4C1A00;
+	border-radius: 15px;
+}
+
+table{
+background-color: #FFFFCC;
+padding-top: 1%;
+padding-bottom: 1%;
+color:#4C1A00;
+font-size: large;
+}
+
+a:link {color:#4C1A00;}
+a:visited {color:#4C1A00;}
+a:active {color:#4C1A00;}
+a:hover {color:#4C1A00;}
+
