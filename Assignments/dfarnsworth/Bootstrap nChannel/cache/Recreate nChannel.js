@@ -84,23 +84,6 @@ function preheader(){
   $('#np').addClass("pad");
 };
 
-//1st scrollbar range 900-1340:
-//2nd scrollbar range ~2060-~2560:
-/*
-$(window).scroll(function() {
-if ($(this).scrollTop() > 800 and ($(this).scrollTop() < 1300){  
-    $incriments = -900;
-    $margin = -1170;
-    $incriments += (this.scrolltop();
-    $margin += 2.25 * incriments;
-//Insert margin value into offscreen image margin:
-  }
-  else{
-    $margin = -1180;
-  }
-});
-*/
-
 $(window).scroll(function() {
 if ($(this).scrollTop() > 900){  
     $('#lscroll').addClass("ex1");
@@ -164,50 +147,62 @@ if ($(this).scrollTop() > 1340){
   }
 });
 
-// var test = prompt("Enter a number greater or less than 10.");
+// Compute the margin for a scroll-bar-responsive webpage image
 
-// console.log(test);
+// 1. Significant constants
+//    2.659: ratio of horizontal scrolling image pixels to vertical scroll bar units
 
-var margin = -1170;
-var scrollPosition = 900;
+// 2. Variable definitions
+//    margin: value to be inserted into image style for scrolling image
+//    scrollPosition: scroll bar position value
+//    setMargin: stores retrieved image for margin insertion
+//    preScroll: previous scroll bar position value to be subtracted from current scroll bar position value
+//    increment: value for margin adjustment in relation to a change in scroll bar position
+//    strip: numeric representation of adjusted relational margin
+
+// 3. Computations
+//    1170px / 440 scroll bar position units = 2.659px/scrollbar position unit
+//    increment = 2.659 * change in scroll bar position
+//    margin += increment + 'px'
+
+// Initialize scrolling image variables
+var margin = -1170; // Sets initial margin value for full image retraction
+var scrollPosition = 900; // Sets initial scroll bar position value for x in the increment equation
 
 $(window).scroll(function() {
-  if($(this).scrollTop() > 1340){
-    scrollPosition=$(this).scrollTop();
-    console.log("Scroll Position:",scrollPosition);
-    margin = 0;
-    var strip = margin;
-    var setMargin = document.getElementById('dwf');
-    margin += 'px';
-    setMargin.style.marginLeft = margin;
-    margin = strip;
-  }else if($(this).scrollTop() > 900){
-    x = scrollPosition;
-    console.log("x:",x);
-    console.log("margin0:",margin);
-    scrollPosition=$(this).scrollTop();
-    console.log("Scroll Position:",scrollPosition);
-    incriment = 2.6590909090909 * (scrollPosition - x);
-    console.log("Incriment (scrollPosition - x):", incriment);
-    margin += incriment;
-    var strip = margin;
-    console.log("Margin + Incriment",margin);
-    var setMargin = document.getElementById('dwf');
-    console.log("setMargin",setMargin);
-    margin += 'px';
-    setMargin.style.marginLeft = margin;
-    margin = strip;
+
+  // Fully extend image when scroll bar position value is greater than 1340
+  if($(this).scrollTop() > 1340){ // Retrieves scroll bar position value and tests conditional statement
+    margin = 0; // Sets margin value for full image extension
+    var setMargin = document.getElementById('dwf'); // Stores retrieved image in a variable
+    setMargin.style.marginLeft = margin; // Inserts a margin of 0 into image style for full image extension
+
+  // Scroll image when scroll bar position value is exclusively between 900 and 1340
+  }else if($(this).scrollTop() > 900){ // Retrieves scroll bar position value and tests conditional statement
+    preScroll = scrollPosition; // Preserves previous scroll bar position value to be subtracted from current scroll bar position value
+    scrollPosition=$(this).scrollTop(); // Sets current scroll bar position value
+    // The ratio of horizontal scrolling image pixels to vertical scroll bar units is 2.659
+    increment = 2.6590909090909 * (scrollPosition - preScroll); // Calculates margin adjustment in relation to a change in scroll bar position
+    margin += increment; // Adjusts previous scrolling image margin in relation to current scroll bar position
+    var strip = margin; // Preserves numeric representation of adjusted relational margin
+    margin += 'px'; // Adds html syntax to numeric representation of current relational margin
+    var setMargin = document.getElementById('dwf'); // Stores retrieved image in a variable
+    setMargin.style.marginLeft = margin; // Inserts relational margin data into image style for scrolling image
+    margin = strip; // Restores numeric representation of relational margin for calculational continuity
+
+// Fully retract image when scroll bar position value is less than 900
   }else{
-    margin=-1170;
-    console.log(margin);
-    var strip = margin;
-    var setMargin = document.getElementById('dwf');
-    margin += 'px';
-    setMargin.style.marginLeft = margin;
-    margin = strip;
+    margin=-1170; // Sets margin value for full image retraction
+    var strip = margin; // Preserves numeric representation of fully retracted margin
+    margin += 'px'; // Adds html syntax to numeric representation of fully retracted margin
+    var setMargin = document.getElementById('dwf'); // Stores retrieved image in a variable
+    setMargin.style.marginLeft = margin; // Inserts a margin of -1170px into image style for full image retraction
+    margin = strip; // Restores numeric representation of fully retracted margin for calculational continuity
   }
 });
 
+
+// Refer to previous documentation for further explanation...
 margin0 = -1170;
 scrollPosition0=2160;
 
@@ -249,6 +244,8 @@ $(window).scroll(function() {
   }
 });
 
+
+// Refer to previous documentation for further explanation...
 var margin1 = -1170;
 var scrollPosition1 = 3436;
 
@@ -288,60 +285,3 @@ $(window).scroll(function() {
     margin1 = strip1;
   }
 });
-
-
-// $(window).scroll(function() {
-//   if($(this).scrollTop() < 900){
-//     var margin = -1170;
-//     console.log(margin);
-//   }else if($(this).scrollTop() > 1340){
-//     var margin = 0;
-//     console.log(margin);
-//   }else{
-//     console.log(margin);
-//     // var margin = scrollMargin();
-//     console.log(margin);
-//   }
-// });
-
-// function scrollMargin(){
-//   margin += 1;
-// }
-
-// if (console.log(test > 100))
-// {
-//   confirm("Greater than 100.");
-// }
-
-// else
-// {
-//   confirm("Less than 10 or greater than 100.");
-// }
-
-// $(window).scroll(function() {
-// if ($(this).scrollTop() > 2000){  
-//     console.log($(this).scrollTop());
-//     scrollPosition=$(this).scrollTop();
-//     console.log("scrollPosition:", scrollPosition);
-//   }
-//   else{
-//     console.log("Less than 2000.");
-//   }
-// });
-
-//1st scrollbar range 800-1300:
-//2nd scrollbar range 2060-2560:
-/*
-$(window).scroll(function() {
-if ($(this).scrollTop() > 800 and ($(this).scrollTop() < 1300){  
-    $x = -800;
-    $margin = -1180;
-    $x += (this.scrolltop();
-    $margin += 2.25 * x;
-//Insert margin value into offscreen image margin:
-  }
-  else{
-    $margin = -1180;
-  }
-});
-*/

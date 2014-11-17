@@ -3,25 +3,8 @@ body, html{
 	padding: 0;
 	height: 100%;
 	font-family: Times;
-/*
-	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
-*/
 }
 
-.contain{
-
-}
-/*
-.header-hidden{
-	background-color: #353845;
-	height: 35px;
-}
-
-.header-fixed{
-	background-color: #3b3e4b;
-	height: 85px;
-}
-*/
 header{
 	background-color: #3b3e4b;
 	height: 120px;
@@ -149,54 +132,6 @@ div#poof.show{
 	padding-top: 27px;
 	transition: all .2s ease-in-out;
 }
-
-/*
-.header-fixed{
-	background-color: #3b3e4b;
-	height: 120px;
-	width: 100%;
-	position: fixed;
-	z-index: 10;
-}
-s
-
-}
-.header-fixed img{
-	float: left;
-	height: 58.5%;
-}
-
-#logo{
-	padding-top: 12px;
-	cursor: pointer;
-}
-
-.header-fixed div{
-	float: right;
-}
-
-.header-fixed h5{
-	margin: 0;
-	color: #727584;
-	font-size: 14px;
-	line-height: 50px;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-.links p{
-	margin-top: 6px;
-	margin-right: 5px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	color: white;
-	display: inline-block;
-	line-height: 40px;
-	font-weight: 900;
-}
-*/
 
 #hbtn{
 	position: fixed;
@@ -361,38 +296,6 @@ s
 	height: 58px;
 	background: linear-gradient(rgba(0,178,238,1),
 				rgba(255,255,255,1), rgba(0,178,238,1));
-}
-
-.ex0{
-	margin-left: -1170px;
-}
-
-.ex1{
-	margin-left: -1020px;
-}
-
-.ex2{
-	margin-left: -850px;
-}
-
-.ex3{
-	margin-left: -680px;
-}
-
-.ex4{
-	margin-left: -510px;
-}
-
-.ex5{
-	margin-left: -340px;
-}
-
-.ex6{
-	margin-left: -170px;
-}
-
-.ex7{
-	margin-left: 0;
 }
 
 #support{
