@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'avenger';
+  src: url('avenger.otf');
+}
+
+.avengers
+{
+	font-family: "avenger";
+}
+
+div
+{
+	width:100%;
+	background-color: rgb(8, 64, 112);
+}
+
+span 
+{
+	font-size: 230pt;
+}
+
+img 
+{
+	width:100%;
+	background-color: rgb(8, 64, 112);
+}
