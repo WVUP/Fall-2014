@@ -167,7 +167,7 @@ if ($(this).scrollTop() > 1340){
 
 // Initialize scrolling image variables
 var margin = -1170; // Sets initial margin value for full image retraction
-var scrollPosition = 900; // Sets initial scroll bar position value for x in the increment equation
+var scrollPosition = 900; // Sets initial arbitrary scroll bar position value for preScroll in the increment equation
 
 $(window).scroll(function() {
 
