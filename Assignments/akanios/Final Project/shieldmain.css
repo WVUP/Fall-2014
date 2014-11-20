@@ -1,0 +1,88 @@
+body
+{
+	padding-top: 70px;
+	background-color: #222A35;
+	font-family: Avengers;
+}
+
+.navbar
+{
+	height: 85px;
+	background-color: #0D0D0D;
+}
+
+.navbar-text
+{
+	position: relative;
+	top: 15px;
+	left: 100px;
+	font-style: italic;
+	font-size: 14pt;
+}
+
+.minilogo
+{
+	position: absolute;
+	height: 85px;
+}
+
+.dropdown
+{
+	position: relative;
+	right: 117px;
+	top: 15px;
+	font-weight: 20pt;
+}
+
+.droplogo
+{
+	height: 20px;
+	width: 20px;
+	padding: 1px;
+}
+
+.classifiedlink
+{
+	position: relative;
+	right: 110px;
+	top: 15px;
+}
+
+.bodycontainer
+{
+	height: 100%;
+	width: 1160px;
+	background-color: #404040;
+	position: relative;
+	left: 107px;
+	border: 1px solid;
+	border-color: #080808;
+}
+
+.hydralogo
+{
+	position: relative;
+	height: 30px;
+	width: 30px;
+	top: 500px;
+	float: right;
+	opacity: 0;
+}
+
+.hydralogo:hover
+{
+	opacity: 1;	
+}
+
+.bodyheader
+{
+	position: relative;
+	top: 20px;
+	left: 450px;
+	color: white;
+}
+
+@font-face {
+	font-family: Avengers;
+	src: url('AVENGEANCEMIGHTIESTAVENGER.ttf');
+}
