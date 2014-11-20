@@ -9,7 +9,11 @@ body
 input
 {
 	color: black !important;
+}
 
+.scrollhydra
+{
+	color: red;
 }
 
 button

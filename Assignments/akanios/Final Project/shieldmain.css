@@ -17,7 +17,7 @@ body
 	top: 15px;
 	left: 100px;
 	font-style: italic;
-	font-size: 14pt;
+	font-size: 16pt;
 }
 
 .minilogo
@@ -85,4 +85,11 @@ body
 @font-face {
 	font-family: Avengers;
 	src: url('AVENGEANCEMIGHTIESTAVENGER.ttf');
+}
+
+.logoutbtn
+{
+	position: relative;
+	top: 30px;
+	left: 150px;
 }
