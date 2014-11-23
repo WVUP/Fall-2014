@@ -1,0 +1,104 @@
+body, html{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	font-family: Helvetica;
+	background-color: black;
+}
+
+.container{
+	text-align: center;
+}
+
+header a:hover{
+	text-decoration: none;
+}
+
+header{
+	height: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	/*Speed of blue div fade when scrolling at the top*/
+	/*Politely enter page*/
+	transition: all .8s ease-in-out;
+}
+
+header.poof{
+	height: 0;
+	/*Speed of div fade when mid page*/
+	/*Quickly exit page*/
+	transition: all .1s ease-in-out;
+}
+
+header.show{
+	opacity: .8;
+	display: block;
+	background-color: rgb(0,0,254);
+	color: white;
+	height: 80px;
+	/*Speed div appears mid page*/
+	transition: all .8s ease-in-out;
+}
+
+#site{
+	position: fixed;
+	z-index: 10;	
+	transition: all .8s ease-in-out;
+}
+
+#site p{
+	float: left;
+	margin-left: 30px;
+	color: rgb(0,0,254);
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 37px;
+	transition: all .8s ease-in-out;
+}
+
+#site.poof p{
+	color: black;
+	margin-top: -42px;
+	transition: all .1s ease-in;
+}
+
+#site.show p{
+	display: block;
+	color: white;
+	opacity: 1 ! important;
+	margin-top: 19px;
+	transition: all .8s ease-in-out;
+}
+
+#site.test p{
+	margin-top: 0;
+	transition: all 1s ease-in-out;
+}
+
+header i{
+	float: right;
+	margin-right: 30px;
+	color: rgb(0,0,254);
+	margin-top: 43px;
+	transition: all .8s ease-in-out;
+}
+
+header.poof i{
+	color: black;
+	margin-top: -32px;
+	transition: all .1s ease-in-out;
+}
+
+header.show i{
+	display: block;
+	color: white;
+	margin-top: 25px;
+	transition: all .8s ease-in-out;
+}
+
+header.test i{
+	margin-top: 0px;
+	transition: all 1s ease-in-out;
+}
+
