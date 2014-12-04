@@ -20,7 +20,14 @@ th
 .heading{
 	text-align: center;
 	font-style: italic;
+	color: #4C1A00;
 }
+
+.subheading
+{
+ color: #4C1A00;
+}
+
 .main{
 	margin-left: 15%;
 	margin-right:15%;
@@ -60,6 +67,7 @@ a:hover {color:#4C1A00;}
 	float: right;
 	height: 400px;
 	width: 300px;
+	padding-left: 7px;
 }
 
 .pvc
