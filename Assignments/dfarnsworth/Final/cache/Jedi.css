@@ -1,0 +1,268 @@
+body, html{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	font-family: Helvetica;
+	background-color: black;
+}
+
+@font-face{
+	font-family: Starwars;
+	src: url('cache/STARWARS.ttf');
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+i:hover{
+	cursor: pointer;
+}
+
+.deapth{
+	text-shadow: 0 4px 4px black;
+	transition: all .2s ease-in-out;
+}
+
+.deapth:hover{
+	text-shadow: 0 7px 6px black;
+	transition: all .2s ease-in-out;
+}
+
+.deapth0{
+	text-shadow: 0 4px 4px black;
+	transition: all .2s ease-in-out;
+}
+
+.deapth0:hover{
+	text-shadow: none;
+	transition: all .2s ease-in-out;
+}
+
+#msite{
+	text-shadow: 0 4px 4px black;
+	transition: all .2s ease-in-out;
+}
+
+#msite:hover{
+	text-shadow: 0 7px 6px black;
+	transition: all .2s ease-in-out;
+}
+
+.container{
+	color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+
+header{
+	height: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	/*Speed of blue div fade when scrolling at the top*/
+	/*Politely enter page*/
+	transition: all .4s ease-in-out;
+}
+
+header.poof{
+	height: 0;
+	/*Speed of div fade when mid page*/
+	/*Quickly exit page*/
+	transition: all .3s ease-in-out;
+}
+
+header.show{
+	background-color: rgba(0,0,254,.9);
+	color: white;
+	height: 80px;
+	/*Speed div appears mid page*/
+	transition: all .3s ease-in-out;
+}
+
+header.expands{
+	background-color: rgba(0,0,254,.9);
+	color: white;
+	height: 100%;
+	/*Speed div appears mid page*/
+	transition: all .3s ease-in-out;
+}
+
+#site{
+	position: fixed;
+	z-index: 10;	
+	transition: all .3s ease-in-out;
+}
+
+#site p{
+	float: left;
+	margin-left: 30px;
+	color: rgb(0,0,254);
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 37px;
+	transition: all .3s ease-in-out;
+}
+
+#site.poof p{
+	color: black;
+	margin-top: -42px;
+	/*Speed #msite disapears scrolling up*/
+	transition: all .3s ease-in;
+}
+
+#site.show p{
+	display: block;
+	color: white;
+	opacity: 1 ! important;
+	margin-top: 19px;
+	transition: all .3s ease-in-out;
+}
+
+header i{
+	float: right;
+	margin-right: 30px;
+	color: rgb(0,0,254);
+	margin-top: 43px;
+	transition: all .3s ease-in-out;
+}
+
+header.poof i{
+	color: black;
+	margin-top: -32px;
+	/*Speed #mbars disapears srolling up*/
+	transition: all .3s ease-in-out;
+}
+
+header.show i{
+	color: white;
+	margin-top: 25px;
+	transition: all .3s ease-in-out;
+}
+
+.link0{
+	display: none;
+	margin-top: 1101px;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+
+.link0:hover{
+	background-color: rgba(255,255,255,1);
+}
+
+.link0 p{
+	padding-top: 28px;
+	padding-bottom: 28px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.link0 p:hover{
+	color: rgba(0,0,254,1)
+}
+
+.link1{
+	display: none;
+	margin-top: 1202px;
+	position: fixed;
+	z-index: 10;	
+	width: 100%;
+}
+
+.link1:hover{
+	background-color: rgba(255,255,255,1);
+}
+
+.link1 p{
+	padding-top: 28px;
+	padding-bottom: 28px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.link1 p:hover{
+	color: rgba(0,0,254,1)
+}
+
+.link2{
+	display: none;
+	margin-top: 1303px;
+	position: fixed;
+	z-index: 10;	
+	width: 100%;
+}
+
+.link2:hover{
+	background-color: rgba(255,255,255,1);
+}
+
+.link2 p{
+	padding-top: 28px;
+	padding-bottom: 28px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.link2 p:hover{
+	color: rgba(0,0,254,1)
+}
+/*link3*/
+.link3{
+	display: none;
+	margin-top: 1404px;
+	position: fixed;
+	z-index: 10;	
+	width: 100%;
+}
+
+.link3:hover{
+	background-color: rgba(255,255,255,1);
+}
+
+.link3 p{
+	padding-top: 28px;
+	padding-bottom: 28px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.link3 p:hover{
+	color: rgba(0,0,254,1)
+}
+/*link4*/
+.link4{
+	display: none;
+	margin-top: 1505px;
+	position: fixed;
+	z-index: 10;	
+	width: 100%;
+}
+
+.link4:hover{
+	background-color: rgba(255,255,255,1);
+}
+
+.link4 p{
+	padding-top: 28px;
+	padding-bottom: 28px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.link4 p:hover{
+	color: rgba(0,0,254,1)
+}
