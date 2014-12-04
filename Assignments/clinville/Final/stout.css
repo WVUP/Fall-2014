@@ -7,8 +7,14 @@ html
 body
 {
 	margin: 0;
+	margin-bottom: 40px;
 	border: 0;
 	padding: 0;
+}
+
+th
+{
+	padding-right: 10px;
 }
 
 .heading{
@@ -22,7 +28,8 @@ body
 
 .menu{
 	position: center;
-	width:100%;
+	margin-left: 10%;
+	width:80%;
 	font-size: large;	
 	border: 5px solid #4C1A00;
 	border-radius: 15px;
@@ -42,12 +49,39 @@ a:active {color:#4C1A00;}
 a:hover {color:#4C1A00;}
 
 .hours{
-	background-color: #B8944D;
+	background-color: #F5DC81;
 	color: black;
 	font-weight: bold;
 	text-align: center;
 }
 
+.bobcat
+{
+	float: right;
+	height: 400px;
+	width: 300px;
+}
+
+.pvc
+{
+	float: right;
+	height: 150px;
+	width: 250px;
+}
+
+.hose
+{
+	float: right;
+	height: 200px;
+	width: 250px;
+}
+
+.map
+{
+	float: right;
+	height: 450px;
+	width: 600px;
+}
 .contact{
 	font-weight: bold;
 	text-align: center;
