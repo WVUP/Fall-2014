@@ -11,3 +11,15 @@ html
 	float: right;
 
 }
+
+
+@font-face {
+  font-family: 'avenger';
+  src: url('avenger.otf');
+
+
+.avengers
+{
+	font-family: "avenger";
+}
+
