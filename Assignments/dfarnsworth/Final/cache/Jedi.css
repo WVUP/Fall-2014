@@ -1,14 +1,19 @@
-body, html{
-	margin:0;
-	padding: 0;
-	height: 100%;
-	font-family: Helvetica;
-	background-color: black;
+@font-face{
+	font-family: StarwarsOutline;
+	src: url('StarkillerOutline.ttf');
 }
 
 @font-face{
 	font-family: Starwars;
-	src: url('cache/STARWARS.ttf');
+	src: url('Starkiller.ttf');
+}
+
+body, html{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	font-family: Starwars;
+	background-color: black;
 }
 
 a:hover{

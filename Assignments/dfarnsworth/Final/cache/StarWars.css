@@ -1,16 +1,20 @@
 @font-face{
-	font-family: 'Starwars';
-	src: url('STARWARS.ttf')  format('truetype');
+	font-family: StarwarsOutline;
+	src: url('StarkillerOutline.ttf');
+}
+
+@font-face{
+	font-family: Starwars;
+	src: url('Starkiller.ttf');
 }
 
 body, html{
 	margin:0;
 	padding: 0;
 	height: 100%;
-	font-family: 'Starwars';
+	font-family: Starwars;
 	background-color: black;
 }
-
 
 a:hover{
 	text-decoration: none;
@@ -21,22 +25,28 @@ i:hover{
 }
 
 .deapth{
-	text-shadow: 0 4px 4px black;
+	text-shadow: 0 8px 4px black;
 	transition: all .2s ease-in-out;
 }
 
 .deapth:hover{
-	text-shadow: 0 7px 6px black;
+	text-shadow: 0 14px 12px black;
 	transition: all .2s ease-in-out;
 }
 
 .deapth0{
-	text-shadow: 0 4px 4px black;
+	text-shadow: 
+		0 4px 4px black,
+		0 -1px 0 black;
 	transition: all .2s ease-in-out;
 }
 
 .deapth0:hover{
-	text-shadow: none;
+	text-shadow:
+		0 7px 6px black,
+		0 -1px 0 black,
+		-1px 0 0 black,
+		1px 0 0 black;
 	transition: all .2s ease-in-out;
 }
 
@@ -102,7 +112,6 @@ header.expands{
 	margin-left: 30px;
 	color: rgba(232,225,27,1);
 	font-size: 32px;
-	font-weight: bold;
 	margin-top: 37px;
 	transition: all .3s ease-in-out;
 }
@@ -117,7 +126,6 @@ header.expands{
 #site.show p{
 	display: block;
 	color: white;
-	opacity: 1 ! important;
 	margin-top: 19px;
 	transition: all .3s ease-in-out;
 }
