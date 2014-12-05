@@ -25,32 +25,22 @@ i:hover{
 }
 
 .deapth{
-	text-shadow: 0 4px 4px black;
+	font-size: 32.5px;
+	text-shadow: 
+		0 5px 1px black,
+		0 -1px 0 black,
+		-1px 0 0 black,
+		1px 0 0 black;
 	transition: all .2s ease-in-out;
 }
 
 .deapth:hover{
-	text-shadow: 0 7px 6px black;
-	transition: all .2s ease-in-out;
-}
-
-.deapth0{
-	text-shadow: 0 4px 4px black;
-	transition: all .2s ease-in-out;
-}
-
-.deapth0:hover{
-	text-shadow: none;
-	transition: all .2s ease-in-out;
-}
-
-#msite{
-	text-shadow: 0 4px 4px black;
-	transition: all .2s ease-in-out;
-}
-
-#msite:hover{
-	text-shadow: 0 7px 6px black;
+	text-shadow:
+		0 9px 4px black,
+		0 -1px 0 black,
+		-1px 0 0 black,
+		1px 0 0 black;
+	font-size: 33px;
 	transition: all .2s ease-in-out;
 }
 
@@ -104,9 +94,8 @@ header.expands{
 #site p{
 	float: left;
 	margin-left: 30px;
+	font-size: 32.5px;
 	color: rgb(0,0,254);
-	font-size: 32px;
-	font-weight: bold;
 	margin-top: 37px;
 	transition: all .3s ease-in-out;
 }
@@ -121,7 +110,6 @@ header.expands{
 #site.show p{
 	display: block;
 	color: white;
-	opacity: 1 ! important;
 	margin-top: 19px;
 	transition: all .3s ease-in-out;
 }
@@ -156,15 +144,13 @@ header.show i{
 }
 
 .link0:hover{
-	background-color: rgba(255,255,255,1);
+	background-color: white;
 }
 
 .link0 p{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -181,15 +167,13 @@ header.show i{
 }
 
 .link1:hover{
-	background-color: rgba(255,255,255,1);
+	background-color: white;
 }
 
 .link1 p{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -206,15 +190,13 @@ header.show i{
 }
 
 .link2:hover{
-	background-color: rgba(255,255,255,1);
+	background-color: white;
 }
 
 .link2 p{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -231,15 +213,13 @@ header.show i{
 }
 
 .link3:hover{
-	background-color: rgba(255,255,255,1);
+	background-color: white;
 }
 
 .link3 p{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -256,15 +236,13 @@ header.show i{
 }
 
 .link4:hover{
-	background-color: rgba(255,255,255,1);
+	background-color: white;
 }
 
 .link4 p{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 

@@ -25,38 +25,22 @@ i:hover{
 }
 
 .deapth{
-	text-shadow: 0 8px 4px black;
-	transition: all .2s ease-in-out;
-}
-
-.deapth:hover{
-	text-shadow: 0 14px 12px black;
-	transition: all .2s ease-in-out;
-}
-
-.deapth0{
+	font-size: 32.5px;
 	text-shadow: 
-		0 4px 4px black,
-		0 -1px 0 black;
-	transition: all .2s ease-in-out;
-}
-
-.deapth0:hover{
-	text-shadow:
-		0 7px 6px black,
+		0 5px 1px black,
 		0 -1px 0 black,
 		-1px 0 0 black,
 		1px 0 0 black;
 	transition: all .2s ease-in-out;
 }
 
-#msite{
-	text-shadow: 0 4px 4px black;
-	transition: all .2s ease-in-out;
-}
-
-#msite:hover{
-	text-shadow: 0 7px 6px black;
+.deapth:hover{
+	text-shadow:
+		0 9px 4px black,
+		0 -1px 0 black,
+		-1px 0 0 black,
+		1px 0 0 black;
+	font-size: 33px;
 	transition: all .2s ease-in-out;
 }
 
@@ -110,8 +94,8 @@ header.expands{
 #site p{
 	float: left;
 	margin-left: 30px;
+	font-size: 32.5px;
 	color: rgba(232,225,27,1);
-	font-size: 32px;
 	margin-top: 37px;
 	transition: all .3s ease-in-out;
 }
@@ -167,8 +151,6 @@ header.show i{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -192,8 +174,6 @@ header.show i{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -217,8 +197,6 @@ header.show i{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -242,8 +220,6 @@ header.show i{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -267,8 +243,6 @@ header.show i{
 	padding-top: 28px;
 	padding-bottom: 28px;
 	color: white;
-	font-size: 32px;
-	font-weight: bold;
 	margin: 0;
 }
 
