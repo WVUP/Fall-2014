@@ -3,12 +3,16 @@ $(window).scroll(function() {
 if ($(this).scrollTop() > 400){  
     $('header').addClass("poof");
     $('#site').addClass("poof");
+    $('#msite').addClass("jump");
+    $('#mbars').addClass("large");
   }
   else{
     $('header').removeClass("poof");
     $('header').removeClass("show");
     $('#site').removeClass("poof");
     $('#site').removeClass("show");
+    $('#msite').removeClass("jump");
+    $('#mbars').removeClass("large");
   }
 });
 
@@ -17,22 +21,22 @@ var scrollPosition = 400
 
 $(window).scroll(function() {
 if ($(this).scrollTop() > 400){
-	preScroll=scrollPosition;
-	scrollPosition=$(this).scrollTop();
-	sshow();
-	}
+    preScroll=scrollPosition;
+    scrollPosition=$(this).scrollTop();
+    sshow();
+    }
 });
 
 // Test for scrolling up
 function sshow() {
-	if (preScroll>scrollPosition){
-		$('header').addClass("show");
-		$('#site').addClass("show");
-	}
-	else{
-		$('header').removeClass("show");
-		$('#site').removeClass("show");
-	}
+    if (preScroll>scrollPosition){
+        $('header').addClass("show");
+        $('#site').addClass("show");
+    }
+    else{
+        $('header').removeClass("show");
+        $('#site').removeClass("show");
+    }
 };
 
 function expand() {
@@ -41,6 +45,8 @@ function expand() {
         $('#site').addClass("show");
         $('#mbars').removeClass('fa-bars');
         $('#mbars').addClass('fa-close');
+        $('#msite').addClass('jump');
+        $('#mbars').addClass('large');
         document.getElementById('msite').style.color="white";
         document.getElementById('msite').style.marginTop="37px";
         document.getElementById('mbars').style.marginTop="43px";

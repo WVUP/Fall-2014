@@ -24,24 +24,50 @@ i:hover{
 	cursor: pointer;
 }
 
-.deapth{
+.depth{
 	font-size: 32.5px;
-	text-shadow: 
+	text-shadow:
+		/*Cast*/
 		0 5px 1px black,
+		/*Outline*/
+		0 1px 0 black,
+		0 -1px 0 black,
+		-1px 0 0 black,
+		1px 0 0 black;		
+	transition: all .2s ease-in-out;
+}
+
+.depth:hover{
+	font-size: 34px;
+	text-shadow:
+		/*Cast*/
+		0 9px 4px black,
+		/*Outline*/
+		0 1px 0 black,
 		0 -1px 0 black,
 		-1px 0 0 black,
 		1px 0 0 black;
 	transition: all .2s ease-in-out;
 }
 
-.deapth:hover{
-	text-shadow:
-		0 9px 4px black,
-		0 -1px 0 black,
-		-1px 0 0 black,
-		1px 0 0 black;
-	font-size: 33px;
-	transition: all .2s ease-in-out;
+#msite.jump{
+	font-size: 32.5px;
+}
+
+#msite.jump:hover{
+	font-size: 34px;
+}
+
+#mbars.large{
+	font-size: 32.5px;
+}
+
+#mbars.large:hover{
+	font-size: 36px;
+}
+
+#mbars{
+	font-size: 32.5px;
 }
 
 .container{
@@ -110,7 +136,7 @@ header.expands{
 #site.show p{
 	display: block;
 	color: white;
-	margin-top: 19px;
+	margin-top: 12px;
 	transition: all .3s ease-in-out;
 }
 
@@ -247,5 +273,10 @@ header.show i{
 }
 
 .link4 p:hover{
+	color: rgb(232,225,27);
+}
+
+.heady{
+	font-family: StarwarsOutline;
 	color: rgb(232,225,27);
 }
