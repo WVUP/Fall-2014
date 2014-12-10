@@ -23,6 +23,15 @@ html
 }
 
 
+.sizefit
+{
+	float: right;	
+	height: 865px;
+	margin-top: -233px;
+	width: 800px;
+	margin-right: 10px
+}
+
 @font-face {
   font-family: 'avenger';
   src: url('avenger.otf');
