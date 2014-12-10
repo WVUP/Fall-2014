@@ -23,6 +23,28 @@ html
 }
 
 
+.33
+{
+	width: 33%;
+	float: right;
+	margin-right: 10px;
+}
+
+.omaha
+{
+	margin-right: 100px;
+	width: 995px;
+	float: right;
+	color: white;
+	background-color: #1d3d93;
+}
+
+.white
+{
+	color: white;
+}
+
+
 @font-face {
   font-family: 'avenger';
   src: url('avenger.otf');
