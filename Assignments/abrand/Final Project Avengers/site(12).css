@@ -32,11 +32,13 @@ html
 
 .omaha
 {
-	margin-right: 100px;
-	width: 975px;
+	
+	width: 950px;
 	float: right;
 	color: white;
 	background-color: #1d3d93;
+	height: 1000px;
+	padding-top: 10px;
 }
 
 .white
