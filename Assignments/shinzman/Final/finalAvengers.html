@@ -18,7 +18,7 @@
 			<div class="listDiv">
 				<ul class="list-unstyled">
 					<li>
-						<button class="membersButton">Members</button>
+						<button class="membersButton" onclick="optionCheck('members')" name="members" value="members">Members</button>
 					</li>
 						<!-- Pass the character into the function -->
 						<button class="charachterButton" onclick="optionCheck('ironMan')" name="ironMan" value="ironMan">
@@ -49,6 +49,23 @@
 			</div>
 		</div>
 		<div class="col-md-9 rightSide textBackground">
+			<div id="members" class="stack" style=visibility:visible>
+				<div class="row halfHeight">
+					<div class="col-md-6">
+						<img class="charPic rightPicShadow" src="http://i.ytimg.com/vi/EYiZeszLosE/maxresdefault.jpg">
+					</div>
+					<div class="col-md-6">
+						<img class="charPic leftPicShadow" src="http://cdn.screenrant.com/wp-content/uploads/The-Avengers-Movie-1-Team-Pose.jpg">
+					</div>
+				</div>
+				<div class="charText halfHeight" >
+					They are Earths mightiest heroes, formed to fight the foes no single hero could withstand. The Avengers are the most prestigious and powerful super-hero team in the world, an ever-shifting assemblage of super-beings, adventurers and crime fighters devoted to protecting the planet from menaces beyond the scope of conventional authorities. 
+					<br><br>
+					The group began with the random teaming of Thor, Iron Man, Ant-Man, Wasp and Hulk, who joined forces to thwart the Asgardian menace Loki in response to a call for help from Hulks teen sidekick, Rick Jones. Pym suggested the heroes remain together as a team, and his partner Wasp suggested they call themselves "something colorful and dramatic, like...the Avengers." The name stuck, and a legend was born.
+					<br><br>
+					Iron Man provided the group with financing and high-tech equipment in his dual identity as rich industrialist Tony Stark, donating his Manhattan residence to serve as their headquarters, Avengers Mansion. Starks butler, Edwin Jarvis, stayed on as the mansions principal servant and chief of staff, becoming a valued friend, confidant and advisor to the group. Stark also drew up a charter and by-laws to guide the team, and sought A-1 security clearance from the federal government, but he encountered resistance from the teams first National Security Council liaison, Special Agent Murch, and the general public regarded the new team somewhat uneasily. Much of this early skepticism focused on the monstrous Hulk, who soon quit the team in a fit of rage, but the groups image improved dramatically after they recruited long-lost war hero Captain America, who became the inspirational cornerstone of the Avengers. Thanks largely to his presence, the team won its A-1 security status and rapidly became the most respected super-hero team of its generation. This newfound prestige was sorely tested when the remaining founders retired from active duty for various personal reasons, leaving "Cap" alone to lead a roster of unlikely new recruits, all former criminals: the outlaw archer Hawkeye, and mutant terrorist twin siblings Quicksilver and the Scarlet Witch. The public was baffled, but Iron Man hoped that rehabilitating them might make up for the teams early failure with the Hulk. The new roster proved him right, and "Caps Kooky Quartet" did the founders proud. All four of them went on to long service records with the Avengers. Hawkeye in particular became a valued mainstay of the team second only to his mentor, Cap.
+				</div>
+			</div>
 			<div id="ironMan" class="stack" style=visibility:hidden>
 				<div class="row halfHeight">
 					<div class="col-md-6">
@@ -76,11 +93,11 @@
 					</div>
 				</div>
 				<div class="charText halfHeight" >
-					Steve Rogers was a scrawny fine arts student growing up during the Great Depression. His alcoholic father died when Steve was a child, and his mother passed away from pneumonia after he graduated high school. In early 1940, appalled at Nazi Germanys horrific atrocities, Steve attempted to enlist in the army. Failing to pass physical requirements, he was invited to volunteer for Operation: Rebirth, a project intended to enhance US soldiers to the height of physical perfection via the inventions and discoveries of Professor Abraham Erskine. Rogers eagerly accepted and became the first test subject. After injections and ingestion of the "Super Soldier Serum," Rogers was exposed to a controlled burst of "Vita-Rays" that activated and stabilized the chemicals in his system. The process successfully altered his physiology from its frail state to the maximum of human efficiency, including greatly enhanced musculature and reflexes. Soon after, Professor Erskine was assassinated by a Nazi operative, leaving Steve the sole beneficiary of Erskines genius. Renamed “Project: Rebirth,” variations of the Super-Soldier serum were subsequently tested, under inhuman conditions, on African-American soldiers. The most successful of these was Isaiah Bradley, and Project: Rebirths resources were eventually absorbed into a multinational superhuman research project dubbed Weapon Plus. Rogers was assigned to serve as an who served both as a counter-intelligence agent and a symbolic US hero to counter Nazi Germany's propaganda successes head by the Red Skull (Johann Shmidt). Wearing a costume based on his own design modeled after the American flag, Steve was given a triangular bulletproof shield, a personal sidearm and the codename Captain America, the Sentinel of Liberty. He was also provided a cover identity as a clumsy infantry private at Camp Lehigh in Virginia. His first opponents included the Red Skull himself and Nazi attempts to duplicate Erskines serum with their own super soldiers. During a mission to the African nation of Wakanda, “Cap” befriended the nations ruler TChaka and obtained a sample of the rare metal Vibranium. Subsequent experiments with this metal produced a uniquely indestructible Vibranium-steel alloy disc, which proved impossible to duplicate. The disc was given to Cap as his new shield. 
+					Steve Rogers was a scrawny fine arts student growing up during the Great Depression. His alcoholic father died when Steve was a child, and his mother passed away from pneumonia after he graduated high school. In early 1940, appalled at Nazi Germanys horrific atrocities, Steve attempted to enlist in the army. Failing to pass physical requirements, he was invited to volunteer for Operation: Rebirth, a project intended to enhance US soldiers to the height of physical perfection via the inventions and discoveries of Professor Abraham Erskine. Rogers eagerly accepted and became the first test subject. After injections and ingestion of the "Super Soldier Serum," Rogers was exposed to a controlled burst of "Vita-Rays" that activated and stabilized the chemicals in his system. The process successfully altered his physiology from its frail state to the maximum of human efficiency, including greatly enhanced musculature and reflexes. Soon after, Professor Erskine was assassinated by a Nazi operative, leaving Steve the sole beneficiary of Erskines genius. Renamed “Project: Rebirth,” variations of the Super-Soldier serum were subsequently tested, under inhuman conditions, on African-American soldiers. The most successful of these was Isaiah Bradley, and Project: Rebirths resources were eventually absorbed into a multinational superhuman research project dubbed Weapon Plus. Rogers was assigned to serve as an who served both as a counter-intelligence agent and a symbolic US hero to counter Nazi Germanys propaganda successes head by the Red Skull (Johann Shmidt). Wearing a costume based on his own design modeled after the American flag, Steve was given a triangular bulletproof shield, a personal sidearm and the codename Captain America, the Sentinel of Liberty. He was also provided a cover identity as a clumsy infantry private at Camp Lehigh in Virginia. His first opponents included the Red Skull himself and Nazi attempts to duplicate Erskines serum with their own super soldiers. During a mission to the African nation of Wakanda, “Cap” befriended the nations ruler TChaka and obtained a sample of the rare metal Vibranium. Subsequent experiments with this metal produced a uniquely indestructible Vibranium-steel alloy disc, which proved impossible to duplicate. The disc was given to Cap as his new shield. 
 					<br><br>
-					Barely out of his teens himself, Rogers made friends with the armys camp mascot, teenager James Buchanan "Bucky" Barnes. Barnes accidentally learned of Rogers' dual identity and offered to keep the secret if he could become Captain America's sidekick. Rogers agreed, and trained Barnes. Throughout 1941, Cap and Bucky shared many adventures stateside and throughout the world. When the US entered World War II, Cap and Bucky teamed with the android Human Torch, his mutant sidekick Toro, and Namor the ocean-dwelling Sub-Mariner as the Allied force the Invaders. In the closing days of World War II in early 1945, Cap broke through Nazi troops for his final wartime confrontation with the Red Skull, who was seemingly slain by bombing debris (but lived on in suspended animation). Days later, Cap and Bucky arrived in England too late to prevent brilliant Nazi scientist Baron Zemo from obtaining and launching an experimental drone plane armed explosive device on it. Rogers and Barnes reached the plane, but when Bucky tried to defuse the bomb, it exploded in mid-air. Rogers was hurled into the freezing waters of the North Atlantic. The US government presumed both were dead. However, Bucky was secretly retrieved by Soviet operatives, while Cap was recovered by Nazi agent Lyle Dekker, who hoped to exchange bodies with him. Cap escaped Dekkers base by air, but was shot down and fell back into the ocean. Due to the Super-Soldier serum Captain America survived, entering a state of suspended animation and eventually freezing in solid ice. 
+					Barely out of his teens himself, Rogers made friends with the armys camp mascot, teenager James Buchanan "Bucky" Barnes. Barnes accidentally learned of Rogers dual identity and offered to keep the secret if he could become Captain Americas sidekick. Rogers agreed, and trained Barnes. Throughout 1941, Cap and Bucky shared many adventures stateside and throughout the world. When the US entered World War II, Cap and Bucky teamed with the android Human Torch, his mutant sidekick Toro, and Namor the ocean-dwelling Sub-Mariner as the Allied force the Invaders. In the closing days of World War II in early 1945, Cap broke through Nazi troops for his final wartime confrontation with the Red Skull, who was seemingly slain by bombing debris (but lived on in suspended animation). Days later, Cap and Bucky arrived in England too late to prevent brilliant Nazi scientist Baron Zemo from obtaining and launching an experimental drone plane armed explosive device on it. Rogers and Barnes reached the plane, but when Bucky tried to defuse the bomb, it exploded in mid-air. Rogers was hurled into the freezing waters of the North Atlantic. The US government presumed both were dead. However, Bucky was secretly retrieved by Soviet operatives, while Cap was recovered by Nazi agent Lyle Dekker, who hoped to exchange bodies with him. Cap escaped Dekkers base by air, but was shot down and fell back into the ocean. Due to the Super-Soldier serum Captain America survived, entering a state of suspended animation and eventually freezing in solid ice. 
 					<br><br>
-					Years later, a team of super-heroes called the Avengers discovered Rogers' frozen body in the North Atlantic, where he had been preserved since 1945. Once revived, Rogers was devastated by Buckys supposed death and the loss of everything once familiar to him. The Avengers were attacked by Namors ally, the extraterrestrial Vuk the Dbari, who transformed the heroes into stone. Cap confronted the alien, making him their ally, and helped the restored Avengers defeat Caps former teammate from the Invaders, Namor. After that adventure, Captain America was invited to join the Avengers as their first recruit. Cap formed close friendships with his teammates Thor, Iron Man (Tony Stark), Giant-Man (Hank Pym), the Wasp, and the Avengers butler Edwin Jarvis.
+					Years later, a team of super-heroes called the Avengers discovered Rogers frozen body in the North Atlantic, where he had been preserved since 1945. Once revived, Rogers was devastated by Buckys supposed death and the loss of everything once familiar to him. The Avengers were attacked by Namors ally, the extraterrestrial Vuk the Dbari, who transformed the heroes into stone. Cap confronted the alien, making him their ally, and helped the restored Avengers defeat Caps former teammate from the Invaders, Namor. After that adventure, Captain America was invited to join the Avengers as their first recruit. Cap formed close friendships with his teammates Thor, Iron Man (Tony Stark), Giant-Man (Hank Pym), the Wasp, and the Avengers butler Edwin Jarvis.
 				</div>
 			</div>
 			<div id="thor" class="stack" style=visibility:hidden>
@@ -159,6 +176,7 @@
 	var hulk = document.getElementById("hulk");
 	var blackWidow = document.getElementById("blackWidow");
 	var hawkeye = document.getElementById("hawkeye");
+	var members = document.getElementById("members");
 
 	/**
 	 * Will toggle visibility of a character feature based on the passed in parameter
@@ -177,6 +195,7 @@
             hulk.style.visibility ="hidden";
             blackWidow.style.visibility ="hidden";
             hawkeye.style.visibility ="hidden";
+            members.style.visibility ="hidden";
         }
         else if(character == "captainAmerica"){
             captainAmerica.style.visibility ="visible";
@@ -185,6 +204,7 @@
             hulk.style.visibility ="hidden";
             blackWidow.style.visibility ="hidden";
             hawkeye.style.visibility ="hidden";
+            members.style.visibility ="hidden";
         }
         else if(character == "thor"){
             thor.style.visibility ="visible";
@@ -193,6 +213,7 @@
             hulk.style.visibility ="hidden";
             blackWidow.style.visibility ="hidden";
             hawkeye.style.visibility ="hidden";
+            members.style.visibility ="hidden";
         }
         else if(character == "hulk"){
             thor.style.visibility ="hidden";
@@ -201,6 +222,7 @@
             hulk.style.visibility ="visible";
             blackWidow.style.visibility ="hidden";
             hawkeye.style.visibility ="hidden";
+            members.style.visibility ="hidden";
         }
         else if(character == "blackWidow"){
             thor.style.visibility ="hidden";
@@ -209,6 +231,7 @@
             hulk.style.visibility ="hidden";
             blackWidow.style.visibility ="visible";
             hawkeye.style.visibility ="hidden";
+            members.style.visibility ="hidden";
         }
         else if(character == "hawkeye"){
             thor.style.visibility ="hidden";
@@ -217,6 +240,16 @@
             hulk.style.visibility ="hidden";
             blackWidow.style.visibility ="hidden";
             hawkeye.style.visibility ="visible";
+            members.style.visibility ="hidden";
+        }
+        else if(character == "members"){
+            thor.style.visibility ="hidden";
+            ironMan.style.visibility ="hidden";
+            captainAmerica.style.visibility ="hidden";
+            hulk.style.visibility ="hidden";
+            blackWidow.style.visibility ="hidden";
+            hawkeye.style.visibility ="hidden";
+            members.style.visibility ="visible";
         }
 
     }
