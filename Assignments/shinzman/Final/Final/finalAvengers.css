@@ -73,3 +73,49 @@ html, body
 	height:100%;
 	width:100%;
 }
+.charPic
+{
+	padding-top: 15px;
+	height:60%;
+	width:100%;
+}
+.charText
+{
+	position: absolute;
+	margin-top: 30px;
+	text-align: center;
+	overflow-y: scroll;
+	height: 50%;
+}
+.stack
+{
+	position: absolute;
+}
+.borderLeft
+{
+	border-left: inset 5px #f4f4f4;
+}
+.borderRight
+{
+	border-right: outset 5px #f4f4f4;
+}
+.textBackground
+{
+	background-color: lightgrey;
+}
+.leftPicShadow
+{
+	-webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.rightPicShadow
+{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.halfHeight
+{
+	height: 50%;
+}
