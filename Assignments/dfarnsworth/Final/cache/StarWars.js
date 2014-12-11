@@ -1,4 +1,9 @@
 // Compute down-scrolling header
+
+// function navv(){
+//     $('.nav').hide();
+// };
+
 $(window).scroll(function() {
 if ($(this).scrollTop() > 400){  
     $('header').addClass("poof");
