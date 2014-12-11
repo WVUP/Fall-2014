@@ -1,0 +1,165 @@
+.bodyheader
+{
+	position: absolute;
+	font-size: 20pt;
+	top: 30px;
+	left: 300px;
+	color: white;
+}
+
+.ironsmall
+{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left: -32px;
+}
+
+.ironsmall2
+{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	right: -32px;
+}
+
+.start
+{
+	position: absolute;
+	font-size: 20pt;
+	top: 80px;
+	left: 410px;
+	color: white;
+}
+
+.firststark
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	position: absolute;
+	top: 150px;
+	padding: 5px;
+}
+
+.starkbleh
+{
+	position: absolute;
+	width: 40%;
+	height: 11%;
+	left: 620px;
+	top: 150px;
+}
+
+.rebirth
+{
+	font-size: 20pt;
+	left: 500px;
+	color: white;
+	position: absolute;
+	top: 550px;
+}
+
+.secondstark
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	left: 570px;
+	position: absolute;
+	padding: 5px;
+	top: 600px;
+}
+
+.mark1gif
+{
+	position: absolute;
+	width: 40%;
+	height: 12%;
+	top: 600px;
+	padding: 10px;
+}
+
+.shield
+{
+	font-size: 20pt;
+	left: 470px;
+	color: white;
+	position: absolute;
+	top: 1100px;
+}
+
+.thirdstark
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	position: absolute;
+	padding: 5px;
+	top: 1150px;	
+}
+
+.suitcasegif
+{
+	position: absolute;
+	width: 40%;
+	height: 12%;
+	left: 620px;
+	top: 1150px;
+}
+
+.avengersbegin
+{
+	font-size: 20pt;
+	left: 420px;
+	color: white;
+	position:absolute;
+	top: 1500px;
+}
+
+.fourthstark
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	position: absolute;
+	left: 570px;
+	top: 1550px;
+}
+
+.starktower
+{
+	position: absolute;
+	width: 40%;
+	height: 12%;
+	top: 1550px;
+	padding: 10px;
+}
+
+.newyork
+{
+	font-size: 20pt;
+	left: 420px;
+	color: white;
+	position:absolute;
+	top: 1900px;
+}
+
+.fifthstark
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	position: absolute;
+	padding: 5px;
+	top: 1950px;
+}
+
+.caught
+{
+	position: absolute;
+	width: 40%;
+	height: 12%;
+	left: 620px;
+	top: 1950px;
+}

@@ -37,7 +37,7 @@ html
 	float: right;
 	color: white;
 	background-color: #1d3d93;
-	height: 1000px;
+	height: 1200px;
 	padding-top: 10px;
 }
 
@@ -46,10 +46,16 @@ html
 	color: white;
 }
 
+.fontsize
+{
+	font-size: 30pt;
+}
+
 
 @font-face {
   font-family: 'avenger';
   src: url('avenger.otf');
+}
 
 
 .avengers
