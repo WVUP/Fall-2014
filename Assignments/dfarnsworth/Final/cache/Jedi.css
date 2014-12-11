@@ -352,6 +352,10 @@ ul{
 .footr{
 	width: 100%;
 	position: absolute;
-	height: 100px;
+	height: 1000px;
 	background-color: rgb(42,42,42);
+}
+
+h3{
+	line-height: 40px;
 }
