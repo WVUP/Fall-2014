@@ -1,0 +1,60 @@
+.mainContainer
+{
+	height:100%;
+	width:100%;
+	background:rgb(223,147,0);
+}
+
+.centerSpace
+{
+	width:100%;
+	height:100%;
+	font-size:30;
+	background:rgb(223,147,0);
+	color:white;
+
+	padding-left:20%;
+	padding-top:8%;
+	padding-right:15%;
+}
+
+
+.buttonDiv
+{
+	padding-left:10%;
+}
+
+.topNavBar
+{
+
+}
+.topNavBar:hover
+{
+	color:red;
+	cursor:pointer;
+}
+
+
+
+.fpsTitle
+{
+	font-size:25;
+	color:red;
+}
+
+.actionDiv
+{
+	padding-right:8%;
+}
+
+.fpsContainer
+{
+	background-color:rgb(230,230,255);
+}
+
+
+}
+.rpgContainer
+{
+	background-color:rgb(86,248,253);
+}
