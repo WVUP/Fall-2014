@@ -1,0 +1,139 @@
+html, body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	background-color: lightgrey;
+}
+.row
+{
+	margin-right: 0px; 
+	margin-left: 0px; 
+}
+.nomargin
+{
+	margin:0px;
+}
+.header1
+{
+	height: 80px;
+	width: 100%;
+	margin: 0;
+	top:0px;
+	background-color: black;
+	z-index: 10;
+}
+.leftSide
+{
+	height: 90%;
+	margin: 0;
+	background-color: #6B0000;
+}
+.rightSide
+{
+	height: 90%;
+	margin: 0;
+	background-color: white;
+}
+.listDiv
+{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: #A00000;
+}
+.membersButton
+{
+	cursor: pointer;
+	width: 90%;
+	height: 40px;
+	margin: 5%;
+	border: 0px;
+	background-color: #303030;
+	color: white;
+	border: 1px solid black;
+}
+.charachterButton
+{
+	cursor: pointer;
+	width: 80%;
+	height: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: 0px;
+	background-color: #303030;
+	color: white;
+	border: 1px solid black;
+}
+.logo
+{
+	height:100%;
+	width:100%;
+}
+.charPic
+{
+	padding-top: 15px;
+	height:60%;
+	width:100%;
+}
+.charText
+{
+	position: absolute;
+	margin-top: 30px;
+	text-align: center;
+	overflow-y: scroll;
+	height: 50%;
+}
+.stack
+{
+	position: absolute;
+}
+.borderLeft
+{
+	border-left: inset 5px #f4f4f4;
+}
+.borderRight
+{
+	border-right: outset 5px #f4f4f4;
+}
+.textBackground
+{
+	background-color: lightgrey;
+}
+.leftPicShadow
+{
+	-webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.rightPicShadow
+{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.halfHeight
+{
+	height: 50%;
+}
+.mainHeaderLogo
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px ;
+	padding-right: 10px;
+}
+.headerLogo
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px ;
+	padding-right: 20px;
+}
+.topPadding
+{
+	padding-top: 5%;
+}

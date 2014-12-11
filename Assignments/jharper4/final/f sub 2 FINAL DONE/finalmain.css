@@ -1,0 +1,45 @@
+.button
+{
+	position: relative;
+	float:right;
+	font-size:100%;
+	text-align: center;
+	width:relative;
+	display: inline-block;
+	padding-top:20px;
+	padding-left: 8%;
+	padding-right: 6%;	
+	height:35px;
+	right:15%;
+	color:white;
+	background-color:darkorange;
+}
+.logo
+{
+	display: inline-block;
+}
+.button:hover
+{
+	background-color:orange;
+	cursor:pointer;
+}
+.font
+{
+	font-size: 130%
+	color: white;
+}
+.button2
+{	
+	text-align: center;
+	padding-top:20px;
+	padding-right: 6%;	
+	height:35px;
+	color:white;
+	background-color:blue;
+}
+.button2:hover
+{
+	background-color:white;
+	color:black;
+	cursor:pointer;
+}

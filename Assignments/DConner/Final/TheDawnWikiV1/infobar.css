@@ -1,0 +1,65 @@
+.butone{
+text-align: center;
+padding: 2px;
+width: 72px;
+border: 3px;
+border-style: ridge;
+margin: 5px;
+margin-top: 24px;
+}
+
+.butone:hover{
+background-color: #000000;
+cursor: pointer;
+}
+
+.butonf{
+width: 56px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+}
+.righty{
+float:right;
+}
+.lefty{
+float:left;
+}
+
+.prophile{
+padding-top:16px;
+padding-right:16px;
+height: 100%;
+min-width: 160px;
+}
+
+.logout{
+color: #000099;
+font-size:75%;
+}
+.logout:hover{
+cursor: pointer;
+}
+
+input{
+color: #000000;
+}
+
+.Locational{
+text-align: center;
+display: inline;
+height: 32px;
+width: 100px;
+position: absolute;
+bottom: 0px;
+}
+.Locational:hover{
+cursor: pointer;
+background: #909090
+}
+.SecondLocation{
+left: 100px;
+}
+.ThirdLocation{
+left:200px;
+{
