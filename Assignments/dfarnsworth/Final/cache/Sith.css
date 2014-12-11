@@ -120,7 +120,7 @@ header.expands{
 #site p{
 	float: left;
 	margin-left: 30px;
-	font-size: 32.5px;	
+	font-size: 32.5px;
 	color: rgba(255,24,24,1);
 	margin-top: 37px;
 	transition: all .3s ease-in-out;
@@ -279,4 +279,79 @@ header.show i{
 .heady{
 	font-family: StarwarsOutline;
 	color: rgb(255,24,24);
+}
+
+.nav{
+	background-color: black;
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	transition: all 1s ease-in-out;
+}
+
+.nav:hover .showme{
+	width: 100%;
+	transition: all .3s ease-in-out;
+}
+
+.showme:hover .dis{
+	margin-left:0;
+	transition: all .5s ease-in-out;
+}
+
+.showme{
+	margin-top: 60%;
+	cursor: pointer;
+	background-color: rgba(255,24,24,1);
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	height: 80px;
+	width: 0;
+	margin-left: -230px;
+	display: flex;
+	transition: all 1s ease-in-out;
+}
+
+.showme:hover{
+	background-color: white;
+	margin-left: 0;
+	width: 100%;
+	color: rgba(255,24,24,1);
+}
+
+.dis{
+	margin-left: -1000px;
+	flex:1;
+	transition: all .3s ease-in-out;
+}
+
+.picimg{
+	width: 50%;
+	float: left;
+}
+
+.picimg img{
+	padding: 10%;
+	width: 80%;
+	height: 80%;
+	opacity: .3;
+	transition: all .3s ease-in-out;
+}
+
+.picimg:hover img{
+	padding: 0;
+	width: 90%;
+	height: 90%;
+	opacity: 1;
+}
+
+ul{
+	color: black;
+}
+
+.footr{
+	width: 100%;
+	position: absolute;
+	height: 100px;
+	background-color: rgb(42,42,42);
 }
