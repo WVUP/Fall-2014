@@ -6,24 +6,36 @@
 </head>
 <body>
 
-	<img class="logo" src="shieldlogo.jpg">
+	<img class="logo" src="shieldlogo3.gif">
+
+	<div class="blackbox">
+	</div>
 
 	<section class="loginform">
 		<form name="login" action="index_submit" method="get">
 			<ul>
 				<li>
-					<label for="usermail">Agent ID</label>
-					<input type="email" name="usermail" placeholder="ID" required></li>
+					<label for="username">Agent ID</label>
+					<input type="text" name="username" placeholder="ID" required></li>
 				<li>
 					<label for="password">Password</label>
 					<input type="password" name="password" placeholder="Password" required>
 				</li>
 				<li>
 				<div class="button">
-					<button onclick="location.href='shieldmain.html'" type="button" class="btn btn-primary">Initiate</button>
+					<button onclick="check(this.form)" type="button" class="btn btn-primary">Initiate</button>
 				</li>
 			</ul>
 		</form>
+		<script>
+            function check(form){
+                if(form.username.value == "AgentWard" && form.password.value == "hydraoverride")
+                    window.open('shieldmain.html','_self')
+                else {
+                    alert("Incorrect ID and Password. Do not Hail Hydra")
+                }
+            }
+        </script>
 </section>
 
 

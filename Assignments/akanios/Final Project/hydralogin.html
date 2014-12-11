@@ -1,31 +1,37 @@
 <html>
 <head>
 	<title>Hail | Hydra</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"> </script>
 	<link rel="stylesheet" type="text/css" href="hydra.css">
 </head>
 <body>
 
 	<marquee behavior="scroll" direction="left" class="scrollhydra">Hail Hydra</marquee>
 
-	<img class="logo" src="Hail-Hydra.jpg">
+	<img class="logo" src="hydralogo2.gif">
 
 	<section class="loginform">
 		<form name="login" action="index_submit" method="get">
 			<ul>
 				<li>
-					<label for="usermail">Agent ID</label>
-					<input type="email" name="usermail" placeholder="ID" required></li>
+					<label for="username">Hydra ID</label>
+					<input type="email" name="username" placeholder="ID" required>
+				</li>
 				<li>
-					<label for="password">Password</label>
+					<label for="password">Password </label>
 					<input type="password" name="password" placeholder="Password" required>
 				</li>
 				<li>
 				<div class="button">
-					<button onclick="location.href=" type="button" class="btn btn-primary">Hail</button>
+					<button onclick="alert('You will now be reprogrammed');" type="button" class="btn btn-danger">Hail</button>
 				</li>
 			</ul>
 		</form>
 </section>
+
+	<a href="index.html"><img class="shieldhid" src="shieldhidden.jpg"></a>
 
 </body>
 </html>

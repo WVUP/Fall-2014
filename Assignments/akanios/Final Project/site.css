@@ -3,7 +3,7 @@ body
 	width: 100%;
 	height: 100%;
 	background-color: #020000 !important;
-	font-family: Avengers;
+	font-family: Shield !important;
 }
 
 input
@@ -14,7 +14,7 @@ input
 
 button
 {
-	font-family: Avengers;
+	font-family: Shield !important;
 }
 
 .logo
@@ -22,7 +22,18 @@ button
 	position: relative;
 	width: 75%;
 	height: 550px;
-	left: 150px;
+	left: 200px;
+}
+
+.blackbox
+{
+	position: absolute;
+	height: 30px;
+	width: 300px;
+	top: 530px;
+	left: 950px;
+	background-color: black;
+
 }
 
 ul, li
@@ -33,13 +44,14 @@ ul, li
 
 .loginform
 {
-	position: relative;
+	position: absolute;
 	color: white;
-	left: 520px;
-	font-family: sans-serif;
+	left: 530px;
+	bottom: 80px;
+	font-family: Shield;
 }
 
 @font-face {
-	font-family: Avengers;
-	src: url('AVENGEANCEMIGHTIESTAVENGER.ttf');
+	font-family: Shield;
+	src: url('BankGothicBold.ttf');
 }

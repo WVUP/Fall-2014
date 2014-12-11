@@ -3,7 +3,7 @@ body
 	width: 100%;
 	height: 100%;
 	background-color: #020000 !important;
-	font-family: Avengers;
+	font-family: Shield;
 }
 
 input
@@ -14,19 +14,20 @@ input
 .scrollhydra
 {
 	color: red;
+	font-size: 20pt;
 }
 
 button
 {
-	font-family: Avengers;
+	font-family: Shield;
 }
 
 .logo
 {
-	position: relative;
+	position: absolute;
 	width: 75%;
 	height: 550px;
-	left: 150px;
+	left: 200px;
 }
 
 ul, li
@@ -37,13 +38,28 @@ ul, li
 
 .loginform
 {
-	position: relative;
+	position: absolute;
 	color: white;
-	left: 520px;
-	font-family: sans-serif;
+	left: 490px;
+	bottom: 30px;
+	font-family: Shield;
+}
+
+.shieldhid
+{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	opacity: 0;
+}
+
+.shieldhid:hover
+{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
 }
 
 @font-face {
-	font-family: Avengers;
-	src: url('AVENGEANCEMIGHTIESTAVENGER.ttf');
+	font-family: Shield;
+	src: url('BankGothicBold.ttf');
 }

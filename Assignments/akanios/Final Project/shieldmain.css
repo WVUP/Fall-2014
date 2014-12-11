@@ -2,7 +2,9 @@ body
 {
 	padding-top: 70px;
 	background-color: #222A35;
-	font-family: Avengers;
+	font-family: Shield;
+	height: 100%;
+	width: 100%;
 }
 
 .navbar
@@ -50,10 +52,10 @@ body
 
 .bodycontainer
 {
-	height: 100%;
+	height: 2350px;
 	width: 1160px;
 	background-color: #404040;
-	position: relative;
+	position: absolute;
 	left: 107px;
 	border: 1px solid;
 	border-color: #080808;
@@ -67,29 +69,215 @@ body
 	top: 500px;
 	float: right;
 	opacity: 0;
+	color: red;
 }
 
 .hydralogo:hover
 {
-	opacity: 1;	
+	opacity: 1;
+	color: red;
+	transition: all 0.5s ease-in-out;	
 }
 
-.bodyheader
-{
-	position: relative;
-	top: 20px;
-	left: 450px;
-	color: white;
-}
+
 
 @font-face {
-	font-family: Avengers;
-	src: url('AVENGEANCEMIGHTIESTAVENGER.ttf');
+	font-family: Shield;
+	src: url('BankGothicBold.ttf');
+}
+
+.dropdown-toggle
+{
+	position: absolute;
+	bottom: -5px;
+}
+
+.classifiedlink
+{
+	position: absolute;
+	top: 20px;
+	right: 118px;
 }
 
 .logoutbtn
 {
 	position: relative;
-	top: 30px;
+	top: 20px;
 	left: 150px;
+}
+
+.header
+{
+	font-size: 20pt;
+	color: white;
+	left: 400px;
+	position: absolute;
+	top: 30px;
+}
+
+.shieldsmall
+{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left: -32px;
+}
+
+.shieldsmall2
+{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	right: -32px;
+}
+
+.header2
+{
+	font-size: 20pt;
+	left: 410px;
+	color: white;
+	position: absolute;
+	top: 70px;
+}
+
+.beginnings
+{
+	position: absolute;
+	color: white;
+	left: 485px;
+	top: 160px;
+	font-size: 20pt;
+}
+
+.firstshield
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	position: absolute;
+	top: 230px;
+	padding: 5px;
+}
+
+.founderspic
+{
+	position: absolute;
+	width: 40%;
+	height: 11%;
+	left: 620px;
+	top: 230px;
+}
+
+.invasion
+{
+	position: absolute;
+	color: white;
+	left: 485px;
+	top: 550px;
+	font-size: 20pt;
+}
+
+.secondshield
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	left: 570px;
+	position: absolute;
+	padding: 5px;
+	top: 650px;
+}
+
+.zolagif
+{
+	position: absolute;
+	width: 40%;
+	height: 12%;
+	top: 650px;
+	padding: 10px;
+}
+
+.fury
+{
+	position: absolute;
+	color: white;
+	left: 485px;
+	top: 980px;
+	font-size: 20pt;
+}
+
+.thirdshield
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	position: absolute;
+	top: 1080px;
+	padding: 5px;
+}
+
+.furygif
+{
+	position: absolute;
+	width: 40%;
+	height: 11%;
+	left: 620px;
+	top: 1080px;
+}
+
+.America
+{
+	position: absolute;
+	color: white;
+	left: 485px;
+	top: 1410px;
+	font-size: 20pt;
+}
+
+.fourthshield
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	left: 570px;
+	position: absolute;
+	padding: 5px;
+	top: 1480px;
+}
+
+.cappic
+{
+	position: absolute;
+	width: 40%;
+	height: 12%;
+	top: 1480px;
+	padding: 10px;
+}
+
+.Initiative
+{
+	position: absolute;
+	color: white;
+	left: 485px;
+	top: 1830px;
+	font-size: 20pt;
+}
+
+.fifthshield
+{
+	color: white;
+	font-size: 12pt;
+	width: 50%;
+	position: absolute;
+	top: 1880px;
+	padding: 5px;
+}
+
+.yogif
+{
+	position: absolute;
+	width: 40%;
+	height: 11%;
+	left: 620px;
+	top: 1880px;
 }
