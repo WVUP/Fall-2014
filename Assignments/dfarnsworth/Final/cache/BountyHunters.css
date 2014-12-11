@@ -96,7 +96,7 @@ header.poof{
 }
 
 header.show{
-	background-color: rgba(255,255,1,.9);
+	background-color: rgba(1,255,0,.9);
 	color: white;
 	height: 80px;
 	/*Speed div appears mid page*/
@@ -104,7 +104,7 @@ header.show{
 }
 
 header.expands{
-	background-color: rgba(255,255,1,.9);
+	background-color: rgba(1,255,0,.9);
 	color: white;
 	height: 100%;
 	/*Speed div appears mid page*/
@@ -121,7 +121,7 @@ header.expands{
 	float: left;
 	margin-left: 30px;
 	font-size: 32.5px;
-	color: rgba(232,225,27,1);
+	color: rgba(1,255,0,1);
 	margin-top: 37px;
 	transition: all .3s ease-in-out;
 }
@@ -143,7 +143,7 @@ header.expands{
 header i{
 	float: right;
 	margin-right: 30px;
-	color: rgba(232,225,27,1);
+	color: rgba(1,255,0,1);
 	margin-top: 43px;
 	transition: all .3s ease-in-out;
 }
@@ -181,7 +181,7 @@ header.show i{
 }
 
 .link0 p:hover{
-	color: rgb(255,255,1);
+	color: rgb(1,255,0);
 }
 
 .link1{
@@ -204,7 +204,7 @@ header.show i{
 }
 
 .link1 p:hover{
-	color: rgb(255,255,1);
+	color: rgb(1,255,0);
 }
 
 .link2{
@@ -227,7 +227,7 @@ header.show i{
 }
 
 .link2 p:hover{
-	color: rgb(255,255,1);
+	color: rgb(1,255,0);
 }
 /*link3*/
 .link3{
@@ -250,7 +250,7 @@ header.show i{
 }
 
 .link3 p:hover{
-	color: rgb(255,255,1);
+	color: rgb(1,255,0);
 }
 /*link4*/
 .link4{
@@ -273,12 +273,12 @@ header.show i{
 }
 
 .link4 p:hover{
-	color: rgb(255,255,1);
+	color: rgb(1,255,0);
 }
 
 .heady{
 	font-family: StarwarsOutline;
-	color: rgb(255,255,1);
+	color: rgb(1,255,0);
 }
 
 .nav{
@@ -302,7 +302,7 @@ header.show i{
 .showme{
 	margin-top: 60%;
 	cursor: pointer;
-	background-color: rgba(232,225,27,1);
+	background-color: rgba(1,255,0,1);
 	border-top-right-radius: 40px;
 	border-bottom-right-radius: 40px;
 	height: 80px;
@@ -316,7 +316,7 @@ header.show i{
 	background-color: white;
 	margin-left: 0;
 	width: 100%;
-	color: rgba(232,225,27,1);
+	color: rgba(1,255,0,1);
 }
 
 .dis{
@@ -352,6 +352,9 @@ ul{
 .footr{
 	width: 100%;
 	position: absolute;
-	height: 100px;
+	height: 1000px;
 	background-color: rgb(42,42,42);
+}
+h3{
+	line-height: 40px;
 }
