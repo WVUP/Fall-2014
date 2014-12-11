@@ -4,6 +4,10 @@ html
 
 }
 
+body
+{
+	background-color: darkgreen !important;
+}
 
 .backgroundcolor
 {
