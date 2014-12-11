@@ -1,0 +1,21 @@
+.mainContainer{
+	height:100%;
+	width: 100%;
+	background-color:  rgb(223,147,0);
+}
+.centerSpace{
+	height:100%;
+	width: 100%;
+	font-size: 30;
+	color: white;
+	background: rgb(223,147,0);
+
+padding-right: 15%;
+padding-left: 20%;
+padding-top: 8%;
+
+}
+.rpgContainer{
+	background-color: rgb(86,248,253);
+
+}
