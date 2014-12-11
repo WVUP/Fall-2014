@@ -5,7 +5,7 @@ body
 
 @font-face {
 	font-family: Avengers;
-	src: url('AVENGEANCEMIGHTIESTAVENGER.ttf');
+	src: url('BankGothicBold.ttf');
 }
 
 .deniedpic
@@ -20,5 +20,13 @@ body
 .scrolldenied
 {
 	color: white;
+	font-family: Avengers;
+}
+
+.goback
+{
+	position: absolute;
+	left: 640px;
+	bottom: 590px;
 	font-family: Avengers;
 }
