@@ -1,0 +1,164 @@
+body{
+	background-attachment: fixed;
+	background-image: url('gold.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	margin: 0;
+}  
+
+.pic{
+	max-width: 121px;
+	max-height: 50px;
+}
+
+.img{
+	max-width: 90px;
+	max-height: 90px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-brand.image{
+	padding: 1px 4px;
+}
+
+.col-sm-2{
+	width: 25%;
+	margin: auto 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.col-sm-12{
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+.carousel-inner{
+    background: black;
+    max-width: 900px;
+    max-height: 400px;
+ }
+
+.item{
+	max-width: 900px;
+    max-height: 400px;
+    margin: auto 0;
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.blog{
+	padding: 40px 43px 43px 43px;
+	height: auto;
+	max-width: 900px;
+}
+
+.silver{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.97) 0%, rgba(0,0,0,0.97) 1%, rgba(0,0,0,0.9) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.97)), color-stop(1%,rgba(0,0,0,0.97)), color-stop(100%,rgba(0,0,0,0.9))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.97) 0%,rgba(0,0,0,0.97) 1%,rgba(0,0,0,0.9) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.97) 0%,rgba(0,0,0,0.97) 1%,rgba(0,0,0,0.9) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.97) 0%,rgba(0,0,0,0.97) 1%,rgba(0,0,0,0.9) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.97) 0%,rgba(0,0,0,0.97) 1%,rgba(0,0,0,0.9) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+.coltex{
+	color: silver;
+}
+
+.left-links{
+	max-width: 225px;
+}
+
+.Facebook{
+	width: auto;
+	padding-top: 140px;
+	height: auto;
+	background-image: url('FB.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+.Facebook:hover{
+	width: auto;
+    height: auto;
+    vertical-align: middle;
+	background-image: url('DarkFB.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.Youtube{
+	width: auto;
+	padding-top: 140px;
+	height: auto;
+	background-image: url('YT.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.Youtube:hover{
+	width: auto;
+    height: auto;
+    vertical-align: middle;
+	background-image: url('DarkYT.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.Flickr{
+	width: auto;
+	height: auto;
+	padding-top: 90px;
+	background-image: url('Flickr.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.Flickr:hover{
+	width: auto;
+    height: auto;
+    vertical-align: middle;
+	background-image: url('DarkFlickr.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.address{
+	text-align: center;
+	color: silver;
+}
+
+.col-sm-8{
+	width: 50%;
+	margin: auto 0;
+}
+
+.right-links{
+	max-width: 225px;
+}
+
+h2{
+	color: grey;
+}
+
+.group{
+	background-color: black;
+}
+
+.text{
+	display: table-cell;
+    vertical-align: bottom;
+}
+
