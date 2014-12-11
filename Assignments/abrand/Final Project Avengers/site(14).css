@@ -1,13 +1,13 @@
 html
 {
-	background-color: black;
+	background-color: maroon;
 
 }
 
 
 .backgroundcolor
 {
-	background-color: black;
+	background-color: maroon;
 }
 
 .HI
@@ -23,20 +23,36 @@ html
 }
 
 
-.sizefit
+.33
 {
-	float: right;	
-	height: 865px;
-	margin-top: -233px;
-	width: 800px;
-	margin-right: 10px
+	width: 33%;
+	float: right;
+	margin-right: 10px;
 }
+
+.omaha
+{
+	
+	width: 950px;
+	float: right;
+	color: white;
+	background-color: #1d3d93;
+	height: 1000px;
+	padding-top: 10px;
+}
+
+.white
+{
+	color: white;
+}
+
 
 @font-face {
   font-family: 'avenger';
   src: url('avenger.otf');
+ }
 
-}
+
 .avengers
 {
 	font-family: "avenger";
@@ -54,4 +70,3 @@ html
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3d93', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
 
 }
-
