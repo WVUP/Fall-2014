@@ -25,35 +25,32 @@
 	</div>
 	<div class="row">
 		<div class="col-md-3 leftSide">
-			<div class="listDiv">
-				<ul class="list-unstyled">
+			<div class="listDiv shadow1">
+				<ul class="list-unstyled shadow1">
 					<li>
-						<button class="membersButton" onclick="optionCheck('members')" name="members" value="members">Members</button>
+						<button class="membersButton shadow2" onclick="optionCheck('members')" name="members" value="members">Members</button>
 					</li>
-						<!-- Pass the character into the function -->
-						<button class="charachterButton" onclick="optionCheck('ironMan')" name="ironMan" value="ironMan">
+						<button class="charachterButton shadow2" onclick="optionCheck('ironMan')" name="ironMan" value="ironMan">
 							Iron Man
 						</button>
 					<li>
-						<!-- Pass the character into the function -->
-						<button class="charachterButton" onclick="optionCheck('captainAmerica')" name="captainAmerica" value="captainAmerica">
+						<button class="charachterButton shadow2" onclick="optionCheck('captainAmerica')" name="captainAmerica" value="captainAmerica">
 							Captain America
 						</button>
 					</li>
 					<li>
-						<!-- Pass the character into the function -->
-						<button class="charachterButton" onclick="optionCheck('thor')" name="thor" value="thor">
+						<button class="charachterButton shadow2" onclick="optionCheck('thor')" name="thor" value="thor">
 							Thor
 						</button>
 					</li>
 					<li>
-						<button class="charachterButton" onclick="optionCheck('hulk')" name="hulk" value="hulk">Hulk</button>
+						<button class="charachterButton shadow2" onclick="optionCheck('hulk')" name="hulk" value="hulk">Hulk</button>
 					</li>
 					<li>
-						<button class="charachterButton" onclick="optionCheck('blackWidow')" name="Black Widow" value="blackWidow">Black Widow</button>
+						<button class="charachterButton shadow2" onclick="optionCheck('blackWidow')" name="Black Widow" value="blackWidow">Black Widow</button>
 					</li>
 					<li>
-						<button class="charachterButton" onclick="optionCheck('hawkeye')" name="hawkeye" value="hawkeye">Hawkeye</button>
+						<button class="charachterButton shadow2" onclick="optionCheck('hawkeye')" name="hawkeye" value="hawkeye">Hawkeye</button>
 					</li>
 				</ul>
 			</div>
@@ -179,7 +176,6 @@
 
 <script type="text/javascript">
 
-	// Capture the elements once and store them in variables ;)
 	var captainAmerica = document.getElementById("capAmerica");
 	var thor = document.getElementById("thor");
 	var ironMan = document.getElementById("ironMan");
@@ -188,16 +184,9 @@
 	var hawkeye = document.getElementById("hawkeye");
 	var members = document.getElementById("members");
 
-	/**
-	 * Will toggle visibility of a character feature based on the passed in parameter
-	 * @param  {string} character A string that represents a superhero ironMan/captainAmerica/thor
-	 */
     function optionCheck(character){
-        // Log the character that was passed into the optioncheck() method
         console.log(character);
 
-        // Should probably use display:block && display:none...otherwise visible will leave them on the screen and take up space
-        // which is not what you are going for...at least I dont think so
         if(character == "ironMan"){
             ironMan.style.visibility ="visible";
             captainAmerica.style.visibility ="hidden";

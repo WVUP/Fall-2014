@@ -1,0 +1,204 @@
+.skate{
+	background: black;
+	max-width: 900px;
+	max-height: 400px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.cnr{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+
+.play{
+	max-width: 900px;
+	height: 100%;
+	padding: 40px 43px 43px 43px;
+}
+
+.Mike{
+	width: 200px;
+	height: 301px;
+	background-image: url('Mike.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+.Rob{
+	width: 200px;
+	height: 301px;
+	background-image: url('Rob.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+}
+
+.Rob:hover{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('R_Hover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Addy{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/addy.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+.Cas{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Cas.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+}
+
+.Cas:hover{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/C_Hover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Lott{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Lott.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+.Lott:hover{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/A_Hover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Crush{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Crush.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+}
+
+.Crush:hover{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Crush_Hover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Punch{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Punch.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+.Ginger{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Ginger.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+}
+
+.Ginger:hover{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/G_Hover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Jess{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Jess.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+
+.Karma{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Karma.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+}
+
+
+.Trix{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Trix.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+
+.Trix:hover{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/T_Hover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.Slamer{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/Salem.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+}
+
+.Slamer:hover{
+	width: 200px;
+    height: 301px;
+    vertical-align: middle;
+	background-image: url('./Skaters/S_Hover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
