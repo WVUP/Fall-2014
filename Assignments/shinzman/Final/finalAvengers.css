@@ -126,3 +126,21 @@ html, body
 	padding-left: 20px ;
 	padding-right: 20px;
 }
+.shadow1
+{
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.75);
+}
+.shadow2
+{
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.75);
+}
+.shadow2:hover
+{
+	-webkit-box-shadow: 0px 0px 4px 4px rgba(178,168,219,1);
+	-moz-box-shadow: 0px 0px 4px 4px rgba(178,168,219,1);
+	box-shadow: 0px 0px 4px 4px rgba(178,168,219,1);	
+}

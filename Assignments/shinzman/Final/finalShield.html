@@ -25,32 +25,29 @@
 	</div>
 	<div class="row">
 		<div class="col-md-3 leftSide">
-			<div class="listDiv">
-				<ul class="list-unstyled">
+			<div class="listDiv shadow1">
+				<ul class="list-unstyled shadow1">
 					<li>
-						<button class="membersButton" onclick="optionCheck('members')" name="members" value="members">Members</button>
+						<button class="membersButton shadow2" onclick="optionCheck('members')" name="members" value="members">Members</button>
 					</li>
-						<!-- Pass the character into the function -->
-						<button class="charachterButton" onclick="optionCheck('coulson')" name="coulson" value="coulson">
+						<button class="charachterButton shadow2" onclick="optionCheck('coulson')" name="coulson" value="coulson">
 							Coulson
 						</button>
 					<li>
-						<!-- Pass the character into the function -->
-						<button class="charachterButton" onclick="optionCheck('may')" name="may" value="may">
+						<button class="charachterButton shadow2" onclick="optionCheck('may')" name="may" value="may">
 							May
 						</button>
 					</li>
 					<li>
-						<!-- Pass the character into the function -->
-						<button class="charachterButton" onclick="optionCheck('skye')" name="skye" value="skye">
+						<button class="charachterButton shadow2" onclick="optionCheck('skye')" name="skye" value="skye">
 							Skye
 						</button>
 					</li>
 					<li>
-						<button class="charachterButton" onclick="optionCheck('fitz')" name="fitz" value="fitz">Fitz</button>
+						<button class="charachterButton shadow2" onclick="optionCheck('fitz')" name="fitz" value="fitz">Fitz</button>
 					</li>
 					<li>
-						<button class="charachterButton" onclick="optionCheck('simmons')" name="simmons" value="simmons">Simmons</button>
+						<button class="charachterButton shadow2" onclick="optionCheck('simmons')" name="simmons" value="simmons">Simmons</button>
 					</li>
 				</ul>
 			</div>
@@ -156,7 +153,6 @@
 
 <script type="text/javascript">
 
-	// Capture the elements once and store them in variables ;)
 	var may = document.getElementById("may");
 	var skye = document.getElementById("skye");
 	var coulson = document.getElementById("coulson");
@@ -164,16 +160,8 @@
 	var simmons = document.getElementById("simmons");
 	var members = document.getElementById("members");
 
-	/**
-	 * Will toggle visibility of a character feature based on the passed in parameter
-	 * @param  {string} character A string that represents a superhero coulson/may/skye
-	 */
     function optionCheck(character){
-        // Log the character that was passed into the optioncheck() method
         console.log(character);
-
-        // Should probably use display:block && display:none...otherwise visible will leave them on the screen and take up space
-        // which is not what you are going for...at least I dont think so
         if(character == "coulson"){
             coulson.style.visibility ="visible";
             may.style.visibility ="hidden";
@@ -231,7 +219,6 @@
             simmons.style.visibility ="hidden";
             members.style.visibility ="visible";
         }
-
     }
 </script>
 </body>
